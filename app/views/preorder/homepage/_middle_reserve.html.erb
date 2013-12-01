@@ -12,9 +12,9 @@
           Enter your email address below.
         <% end %>
       </p>
-    
+     <div id="reserve_container">  
       <%= form_tag "/preorder/prefill", :id => "checkout" do %>
-        <%= render 'preorder/payment_options' %>
+	   <%= render 'preorder/payment_options' %>
         <div class="checkout_controls">
           <div class="checkout_controls_wrapper">
             <div class="checkout_controls_inner">
@@ -22,8 +22,9 @@
             </div>
           </div>
         </div>
-      <% end %>
+	<% end %>
       <a href="/preorder/checkout" class="blue_button reserve"><%= Settings.call_to_action %></a>
-      <%= like_button %>
+	  <%= like_button %>
+  </div> 
   </div>
 </div>
