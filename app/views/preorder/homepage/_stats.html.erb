@@ -55,13 +55,21 @@
     <% end %>
     
     <div id="reserve_container">
-      <p id="ship_date"><%= Settings.ships %></p>
+     <div class="main_content">
+      <%= form_tag "/preorder/prefill", :id => "checkout" do %>
+        <%= render 'preorder/payment_options' %>
+        <div class="checkout_controls">
+          <div class="checkout_controls_wrapper">
+            <div class="checkout_controls_inner">
+              <%= email_field_tag "email", nil, :placeholder => "Email address", :required => "requidred", :id => "email" %>
+            </div>
+          </div>
+        </div>
+      <% end %>
       <a href="/preorder/checkout" class="blue_button reserve"><%= Settings.call_to_action %></a>
-      <p id="price"><%= Settings.price_human %></p>
-      <p><%= Settings.dont_give_them_a_reason_to_say_no %></p>
       <%= like_button %>
+     </div>
     </div>
-    
   </div>
   
 </div>
