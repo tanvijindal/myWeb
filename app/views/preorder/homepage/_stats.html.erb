@@ -6,10 +6,10 @@
       </div>
       <div id="player" class="hidden" style="display: none;">
         <object width="512" height="385">
-          <param name="movie" value="<%= Settings.video_embed_url %>?autohide=1&showinfo=0&rel=0&autoplay=1" />
+          <param name="movie" value="<%= Settings.video_embed_url %>?autohide=0&showinfo=0&rel=0&autoplay=0" />
           <param name="allowFullScreen" value="true" />
           <param name="allowscriptaccess" value="always" />
-          <embed src="<%= Settings.video_embed_url %>?autohide=1&showinfo=0&rel=0&autoplay=1" type="application/x-shockwave-flash" width="512" height="385" allowscriptaccess="always" allowfullscreen="true"></embed>
+          <embed src="<%= Settings.video_embed_url %>?autohide=0&showinfo=0&rel=0&autoplay=0" type="application/x-shockwave-flash" width="512" height="385" allowscriptaccess="always" allowfullscreen="true"></embed>
         </object>
       </div>
     <% else %>
@@ -37,7 +37,7 @@
           </div>
         </div>
       <% end %>
-      <%= like_button %>
+      <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fpikmoments&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
     </div>
   </div>
   

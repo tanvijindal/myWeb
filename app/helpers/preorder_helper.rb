@@ -1,6 +1,6 @@
 module PreorderHelper
-  def like_button(width = 70, show_faces = false)
-    raw "<div class=\"fb-like\" data-send=\"false\" data-width=\"#{width}\" data-layout=\"box_count\" data-show-faces=\"true\"></div>"
+    def like_button(width = 70, show_faces = true)
+    raw "<div class=\"fb-like\" data-href=\"https://www.facebook.com/pikmoments\" data-layout=\"button_count\" data-action=\"like\" data-show-faces=\"false\" data-share=\"true\"></div>"
   end
   def pin_it_button
     image_url = URI.encode("#{request.scheme}://#{request.host}#{image_path(Settings.product_image_path)}")
