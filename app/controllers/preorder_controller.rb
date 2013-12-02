@@ -26,11 +26,12 @@ class PreorderController < ApplicationController
     # From there, we save it, and voila, we got ourselves a preorder!
     port = Rails.env.production? ? "" : ":3000"
     callback_url = "#{request.scheme}://#{request.host}#{port}/preorder/postfill"
-    redirect_to AmazonFlexPay.multi_use_pipeline(@order.uuid, callback_url,
-                                                 :transaction_amount => price,
-                                                 :global_amount_limit => price + Settings.charge_limit,
-                                                 :collect_shipping_address => "True",
-                                                 :payment_reason => Settings.payment_description)
+    redirect_to callback_url
+    #    redirect_to AmazonFlexPay.multi_use_pipeline(@order.uuid, callback_url,
+    #                                                 :transaction_amount => price,
+    #                                             :global_amount_limit => price + Settings.charge_limit,
+    #                                             :collect_shipping_address => "True",
+    #                                             :payment_reason => Settings.payment_description)
   end
 
   def postfill

@@ -31,12 +31,12 @@
         <div class="checkout_controls">
           <div class="checkout_controls_wrapper">
             <div class="checkout_controls_inner">
-              <%= email_field_tag "email", nil, :placeholder => "Email address", :required => "requidred", :id => "email" %>
+				<%= email_field_tag "email", nil, :placeholder => "Email address", :required => "required", :id => "email" %>
+				<%= submit_tag Settings.call_to_action, :class => "blue_button reserve" %> 
             </div>
           </div>
         </div>
       <% end %>
-      <a href="/preorder/checkout" class="blue_button reserve"><%= Settings.call_to_action %></a>
       <%= like_button %>
     </div>
   </div>
