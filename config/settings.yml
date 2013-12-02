@@ -13,18 +13,18 @@ project_goal: 100000
 product_name: "PikMoments"
 
 # This will be used in sentences like Hooray You've just reserved product_description
-product_description: "a set of widgets"
+product_description: "your own personal photographer"
 
 # An image showcasing your product -- it'll show up when you pin your product
 # It should be in app/assets/images
-product_image_path: "my-product-image.png"
+product_image_path: "video_placeholder.png"
 
 # The message on the preorder page, Lockitron's is ""
 value_proposition: "Capture amazing moments automatically"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
-video_embed_url: "https://www.youtube.com/v/D1L3o88GKew"
+#video_embed_url: "https://www.youtube.com/v/D1L3o88GKew"
 
 # If set to true, then the image at "/assets/video_placeholder.png" will be shown in place of the youtube
 # video.  When the user clicks it, the vid will replace the image and start playing.
