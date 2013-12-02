@@ -21,10 +21,10 @@ Selfstarter =
       Selfstarter.firstTime = false
 
     # init placeholder image for video
-    $("#video_image").on "click", ->
-      $("#player").removeClass("hidden")
-      $("#player").css('display', 'block')
-      $(this).hide()
+    #$("#video_image").on "click", ->
+     # $("#player").removeClass("hidden")
+     # $("#player").css('display', 'block')
+     # $(this).hide()
 
     # if they are using the optional payment options section on the checkout page, need to conditional fix the email
     # field and button to the bottom of the page so it's displayed after selecting a radio button
