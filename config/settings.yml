@@ -24,7 +24,7 @@ value_proposition: "Capture amazing moments automatically"
 
 # YouTube or Vimeo Video URL (The embed URL, without the query string options)
 # Replace /embed/ in your video url path with /v/ for video playback to work.
-#video_embed_url: "https://www.youtube.com/v/D1L3o88GKew"
+# video_embed_url: "https://www.youtube.com/v/D1L3o88GKew"
 
 # If set to true, then the image at "/assets/video_placeholder.png" will be shown in place of the youtube
 # video.  When the user clicks it, the vid will replace the image and start playing.
@@ -54,7 +54,7 @@ payment_description: "You really should change this text because people will see
 charge_limit: 25.00
 
 # On Lockitron, it's "backers"
-primary_stat: "backers"
+primary_stat: "people have signed up, already!"
 # This'll show up in the tweet as, "I'm backer number ..."
 primary_stat_verb: 'backer'
 
