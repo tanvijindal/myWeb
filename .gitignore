@@ -7,6 +7,9 @@
 # Ignore bundler config
 /.bundle
 
+# remove .DS_Store files in mac. 
+.DS_Store
+
 # Ignore the default SQLite database.
 /db/*.sqlite3
 
@@ -23,3 +26,4 @@ config/environments/*.local.yml
 
 # yes, I use an ide
 .idea/*
+
