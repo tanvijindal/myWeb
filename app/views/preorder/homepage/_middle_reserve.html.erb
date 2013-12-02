@@ -17,6 +17,7 @@
         <%= render 'preorder/payment_options' %>
             <%= email_field_tag "email", nil, :placeholder => "Email address", :required => "required", :id => "email", :class => "main_content" %>
 			<%= submit_tag Settings.call_to_action, :class => "blue_button reserve" %>
+
         <%= like_button %>
       <% end %>
   </div>
