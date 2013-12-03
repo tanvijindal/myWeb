@@ -7,9 +7,23 @@
         <%= render 'preorder/payment_options' %>
             <%= email_field_tag "email", nil, :placeholder => "Email address", :required => "required", :id => "email", :class=>"text_field"%>
 			<%= submit_tag Settings.call_to_action, :class => "blue_button reserve" %>
-
-        <%= like_button %>
       <% end %>
+    <div id="share_container">
+     <div id="share" class="clearfix">
+      <div id='facebook_button_container'>
+        <%= like_button %>
+      </div>
+      <div id='tweet_button_container'>
+        <%= tweet_button %>
+      </div>
+      <div id='pin_button_container'>
+        <%= pin_it_button %>
+      </div>
+     </div>
+    </div>
+    <%= render 'preorder/share/twitter_js' %>
+    <%= render 'preorder/share/facebook_js' %>
+    <%= render 'preorder/share/pinterest_js' %>
 
   </div>
 </div>
