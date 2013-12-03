@@ -16,4 +16,28 @@
   box-shadow:         0px 1px 3px 0px #acacac;
   background: #fcfcfc;
   position: relative;
+  #logo
+  {
+      width: 50%;
+      float: left;
+      height: 100px;
+      .thumbnail
+      {
+          float: right;
+      }
+  }
+  #product_name{
+      width:50%;
+      float: left;
+      height: 100px;
+      .inner
+      {
+          margin-top: 29px;
+      }
+      h1{
+          width:50%;
+          float:left;
+          margin-left: 0px;
+      }
+  }
 }
