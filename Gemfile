@@ -8,7 +8,7 @@ gem 'json', '~> 1.7.7'
 group :development do
   gem 'pg'
   gem 'pry-rails'
-  gem ‘rails_12factor’
+  gem 'rails_12factor'
 end
 
 group :production do
