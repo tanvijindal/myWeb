@@ -7,7 +7,7 @@ class PreorderController < ApplicationController
   def checkout
   end
 
-  def prefill
+def prefill
     @user = User.find_or_create_by(:email => params[:email])
 
     if Settings.use_payment_options
