@@ -12,7 +12,7 @@ module PreorderHelper
       #raw "<a href=\"http://www.pinterest.com/pin/create/button/?url=http%3A%2F%2Fwww.flickr.com%2Fphotos%2F110374075%40N07%2F11170754304%2F&media=http%3A%2F%2Fwww.flickr.com%2Fphotos%2F110374075%40N07%2F11170754304&description=PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically\" data-pin-do=\"buttonPin\" data-pin-config=\"beside\"><img src=\"//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png\" /></a>"
   end
   def tweet_button
-    raw "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"https://www.pikmoments.com\" data-text=\"PikMoments : Capture amazing moments automatically!\" data-via=\"pikmoments\" data-hashtags=\"pikmoments\">Tweet</a>":q
+    raw "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"https://www.pikmoments.com\" data-text=\"PikMoments : Capture amazing moments automatically!\" data-via=\"pikmoments\" data-hashtags=\"pikmoments\">Tweet</a>"
 	#tweet_text = "I'm #{Settings.primary_stat_verb} number #{number_with_delimiter Order.backers, :delimiter => ","} #{Settings.tweet_text}!"
    # raw "<a href='https://twitter.com/share?url=/' id='tweet_button' class='twitter-share-button twitter-button' data-url=#{request.scheme}//#{request.host}' data-via='#{Settings.product_name}' data-lang='en' data-count='vertical' data-text=\"#{tweet_text}\">Tweet</a>"
   end
