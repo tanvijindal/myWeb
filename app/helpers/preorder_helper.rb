@@ -6,9 +6,7 @@ module PreorderHelper
 
   def pin_it_button    
       image_url = URI.encode("#{request.scheme}://#{request.host}#{image_path(Settings.product_image_path)}")
-     # raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/PinExt.png' title='Pin It' /></a>"
-      
-      raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}&description=PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_gray_20.png' title='Pin It' /></a>"
+      raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}&description=PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/PinExt.png' title='Pin It' /></a>"
   end
   
   def tweet_button
