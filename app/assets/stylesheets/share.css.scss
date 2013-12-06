@@ -13,39 +13,18 @@
       font-size: 24px;
     }
   }
-  #share
+  #facebook_button_container
   {
-    margin: 0 auto;
-    #facebook_button_container
-    {
-      margin: 2.5 auto;
-      position: relative;
-      display: inline-block;
-      margin-right : 15px;
-    }
-    #pin_button_container
-    {
-      margin: 0 auto;
-      display: inline-block;
-      position: relative;
-    }
-    #tweet_button_container
-    {
-      margin: 0 auto;
-      display: inline-block;
-      position: relative;
-    }
-    #twitter-widget-0
-    {
-        width: 81px;
-    }
+	display: inline-flex;
+	padding-right: 26px;
+	margin-left: 64px;
   }
-  #order_id
+  #pin_button_container
   {
-    margin: 0 auto;
-    margin-top: 15px;
-    padding: 0px;
-    opacity: 0.3;
-    z-index: 9999;
+	display: inline-flex;
+  }
+  #tweet_button_container
+  {
+	display: inline-flex;
   }
 }

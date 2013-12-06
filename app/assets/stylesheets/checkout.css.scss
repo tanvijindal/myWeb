@@ -11,7 +11,6 @@
   p
   {
     line-height: 1.5;
-  }
   #checkout
   {
     #email
@@ -33,15 +32,6 @@
       border: none;
     }
   }
-}
-
-.text_field 
-{
-    padding: 15px;
-    border-radius: 10px;
-    border: 1px solid #CCC;
-    width: 350px;
-    outline: none;
 }
 
 .main_content.payment_options
@@ -237,4 +227,5 @@
     margin-bottom: 30px;
     line-height: 1.3;
   }
+}
 }

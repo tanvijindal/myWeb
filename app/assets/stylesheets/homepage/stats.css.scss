@@ -1,8 +1,12 @@
 #backing
 {
+  #email_form
+  {
+
+  }
   float: left;
   width: 383px;
-  margin: 20px 0 0 40px;
+  margin: 10px 20px 10px 20px;
   #backers
   {
     border-left: none;
@@ -101,4 +105,13 @@ body.lt-ie9
   {
     height: 20px !important;
   }
+}
+
+.text_field 
+{
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #CCC;
+  width: 350px;
+  outline: none;
 }
