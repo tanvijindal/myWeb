@@ -14,16 +14,15 @@
     </ul>
 	--> 
     <div >
-      
-      <h3 style="text-align:center">Get early access!</h3>
+		<h3 style="text-align:center">Get early access!</h3>
 
-      <%= form_tag "/preorder/prefill", :id => "checkout" do %>
+		<%= form_tag :action => "prefill", :id => "checkout", :controller => 'preorder', :method => 'post', :remote => true do %>
         <%= render 'preorder/payment_options' %>
         <div class="checkout_controls">
           <div class="checkout_controls_wrapper">
             <div class="checkout_controls_inner">
 				<%= email_field_tag "email", nil, :placeholder => "Email address", :required => "required", :id => "email", :class=>"text_field"%>
-				<%= submit_tag Settings.call_to_action, :class => "blue_button reserve" %> 
+				<%= submit_tag Settings.call_to_action, :class => "blue_button reserve" %>
             </div>
           </div>
         </div>
