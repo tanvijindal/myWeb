@@ -4,12 +4,16 @@ module PreorderHelper
   end
 
   def pin_it_button    
-      image_url = URI.encode("#{request.scheme}://#{request.host}#{image_path(Settings.product_image_path)}")
-      raw "<a href='http://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}&description=PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically' class='pin-it-button' count-layout='vertical'><img border='0' src='//assets.pinterest.com/images/PinExt.png' title='Pin It' /></a>"
+	image_url = URI.encode("#{request.scheme}://#{request.host}#{image_path(Settings.product_image_path)}")
+	raw "<a class=\"pin-it-button\" data-pin-do=\"buttonPin\" data-pin-config=\"beside\" data-pin-color=\"red\" always-show-count=\"true\" href=\"https://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}&description=PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically\" > <img src=\"//assets.pinterest.com/images/pidgets/pin_it_button.png\" /></a>"
   end
   
   def tweet_button
-    raw "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-url=\"https://www.pikmoments.com\"  data-text=\"PikMoments : Capture amazing moments automatically!\" data-via=\"pikmoments\" data-hashtags=\"pikmoments\">Tweet</a>"
+    raw "<a href=\"https://twitter.com/share\" class=\"twitter-share-button\" data-lang=\"en\" data-url=\"https://www.pikmoments.com\" size=\"60px\" data-text=\"PikMoments : Capture amazing moments automatically!\" data-via=\"pikmoments\" data-hashtags=\"pikmoments\">Tweet</a>"
+  end
+  
+  def google_plus_button
+	raw "<div class=\"g-plusone\" data-size=\"medium\" data-href=\"https://plus.google.com/u/0/117318481553470230305/posts\"></div>"
   end
 
   def video_url

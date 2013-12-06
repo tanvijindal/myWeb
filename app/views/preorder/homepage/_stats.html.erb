@@ -25,20 +25,6 @@
 		<% end %>  
 	  </div> 
 
-	  <div id="share_container">
-		  <div id='facebook_button_container'>
-			<%= like_button %>
-		  </div>
-		  <div id='tweet_button_container'>
-			<%= tweet_button %>
-		  </div>
-		  <div id='pin_button_container'>
-			<%= pin_it_button %>
-		</div>
-		<%= render 'preorder/share/twitter_js' %>
-		<%= render 'preorder/share/facebook_js' %>
-		<%= render 'preorder/share/pinterest_js' %>
-		</div>
-	  </div>
+	  <%=render '/preorder/share' %>
 </div>    
 </div>

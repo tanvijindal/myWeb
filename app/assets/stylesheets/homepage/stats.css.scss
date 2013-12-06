@@ -1,16 +1,24 @@
 #backing
 {
-  #email_form
-  {
-
-  }
   float: left;
   width: 383px;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 10px;
+  
+  #call_statement
+  {
+	margin: 0 auto;
+	padding-left: 10px;
+  }
+  #email_form
+  {
+	margin: 0 auto;
+	padding-left: 10px;
+  }
+
   #backers
   {
     border-left: none;
-    padding-left: 0;
+    padding-left: 10px;
     ul
     {
       float: left;
