@@ -17,7 +17,7 @@ module PreorderHelper
   end
   
   def google_plus_button
-	raw "<div class=\"g-plusone\" data-size=\"medium\" data-href=\"https://plus.google.com/u/0/117318481553470230305/posts\"></div>"
+	raw "<div class=\"g-plusone\" data-size=\"medium\" data-href='https://plus.google.com/b/118324967223424406291/118324967223424406291/posts/p/pub' rel='pulisher' \"></div>"
   end
 
   def video_url
