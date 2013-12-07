@@ -5,7 +5,11 @@ module PreorderHelper
 
   def pin_it_button    
 	image_url = URI.encode("#{request.scheme}://#{request.host}#{image_path(Settings.product_image_path)}")
-	raw "<a class=\"pin-it-button\" data-pin-do=\"buttonPin\" data-pin-config=\"beside\" data-pin-color=\"red\" always-show-count=\"true\" href=\"https://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}&description=PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically\" > <img src=\"//assets.pinterest.com/images/pidgets/pin_it_button.png\" /></a>"
+	raw "<a href='//www.pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}&description=PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically' data-pin-do='buttonPin' data-pin-config='beside' data-pin-color='red'><img src='//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_20.png' /></a>"
+
+#	raw "<a href='//www.pinterest.com/pin/create/button/? class=\"pin-it-button\" data-pin-do=\"buttonPin\" data-pin-config=\"beside\" data-pin-color=\"red\" always-show-count=\"true\" href=\"https://pinterest.com/pin/create/button/?url=#{encoded_root_url}&media=#{image_url}&description=
+	#	PikMoments%20%3A%20Capture%20amazing%20photographs%20automatically
+	#	\" > <img src=\"//assets.pinterest.com/images/pidgets/pin_it_button.png\" /></a>"
   end
   
   def tweet_button
