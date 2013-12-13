@@ -11,6 +11,6 @@ class PreorderController < ApplicationController
 	#@user = User.find_or_create_by(:email => params[:email])
 	#UserMailer.welcome_email(@user).deliver
 	
-    #redirect_to '/preorder/checkout'
+    redirect_to '/'
   end
 end
