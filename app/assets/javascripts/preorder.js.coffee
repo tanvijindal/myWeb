@@ -50,4 +50,8 @@ Selfstarter =
         $('.checkout_controls_wrapper').addClass "checkout_ready"
 $ ->
   Selfstarter.init()
+  $("#thanks").hide()
   $("#email").focus() if $('.payment_options').length == 0
+  $("#checkout").on "ajax:success", -> 
+    $(this).hide()
+    $("#thanks").show()

@@ -123,3 +123,67 @@ body.lt-ie9
   width: 350px;
   outline: none;
 }
+
+#slide1
+{
+  background: url(image-path("1_slide.jpg")) no-repeat top left;
+}
+
+#slide2
+{
+  background: url(image_path("2_slide.jpg")) no-repeat top left;
+}
+
+#slide3
+{
+  background: url(image_path("3_slide.jpg")) no-repeat top left;
+}
+
+.slideshow
+{
+  position: relative;
+  width: 800px;
+  height: 600px;
+}
+
+.slideshow .navigation-circles
+{
+  position: absolute;
+  bottom: 50px;
+  z-index: 999;
+}
+
+.slideshow .navigation-circles li
+{
+  list-style-type: none;
+  display: inline;
+}
+
+.slideshow .slides
+{
+  position: absolute;
+  width: 800px;
+  height: 600px;
+  z-index: 8;
+  top: 0;
+  left: 0;
+}
+.slideshow .slides div
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.slideshow .slides .active
+{
+  z-index: 10;
+}
+
+.slideshow .slides .last-active
+{
+  z-index: 9;
+}
+
+
+

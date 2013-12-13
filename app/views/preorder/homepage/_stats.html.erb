@@ -1,29 +1,46 @@
 <div class="wrapper clearfix">
-  <div id="video">
-      <div id="video_image">
-        <img alt="video_place_holder" width='512px' height='385px' src="/assets/video_placeholder.png" />
-	  </div>
-  </div>
 
-  <div id="backing">
-    <!-- <ul>
-      <li class="stats" id="backers">
-        <%= number_with_delimiter User.count, :delimiter => "," %>
-        <span><%= Settings.primary_stat %></span>
-      </li>
-    </ul>
-	--> 
+<div class="slideshow">
+  <div class="slides">
+	<div id="slide1" class="active" >
+	</div>
+	<div id="slide2">
+	</div>
+	<div id="slide3">
+	</div>
+  </div>
+  <div class="navigation-circles">
+	<ul>
+	  <li id="circle1" class="active" >
+		<img src='/assets/empty_circle.png' />
+	  </li>
+	  <li id="circle2">
+		<img src='/assets/empty_circle.png' />
+	  </li>
+	  <li id="circle3">
+		<img src='/assets/empty_circle.png' />
+	  </li>
+	</ul>l
+  </div>
+</div>
+
+
 	  <div id ="call_statement">
 		<h3 style="text-align:center">Get early access!</h3>
 	  </div> 
 
 	  <div id="email_form">
 
-		<%= form_tag :action => "prefill", :id => "checkout", :controller => 'preorder', :method => 'post', :remote => true do %>
+		  <%= form_tag '/preorder/prefill', :id => "checkout", :method => 'post', data: {confirm: "Are you sure?", remote: true} do %>
 				<%= email_field_tag "email", nil, :placeholder => "Email address", :required => "required", :id => "email", :class=>"text_field"%>
 				<%= submit_tag Settings.call_to_action, :class => "blue_button reserve" %>
 		<% end %>  
-	  </div> 
+	</div>
+
+	<div id ="thanks">
+		<h1> Thanks! </h1>
+
+	</div>
 
 	  <%=render '/preorder/share' %>
 </div>    
