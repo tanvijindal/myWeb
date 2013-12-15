@@ -1,7 +1,7 @@
 .subscribe_form_container
 {
   position: relative;
-  width:935px;
+  width: 100%;
   height: 500px;
   z-index: 999;
 }
@@ -11,8 +11,8 @@
   position: absolute;
   bottom: 100px;
   right: 40px;
+  width: 38%
 }
-
 
 .subscribe_email_form
 {
@@ -26,13 +26,13 @@
 
 .subscribe_call
 {
-  width: 350px;
+  width: 100%;
   padding: 0px 5px;
 }
 
 .subscribe_call h4
 {
-  margin-bottom: 5px;
+  margin-bottom: 2px;
   text-align: left;
 }
 
@@ -44,7 +44,7 @@
   padding: 3px;
   margin: 0 auto;
   width: 50px;
-  font-size: 18px;
+  font-size: 14px;
   background-color: #550055;
   color: $button_color; /* text color */
   float: right;
@@ -52,8 +52,8 @@
 
 .text_field
 {
-  font-size: 18px;
-  padding: 5px;
+  font-size: 14px;
+  padding: 3px;
   margin: 0 auto;
   width: 230px;
   outline: none;

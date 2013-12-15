@@ -1,5 +1,15 @@
 
 /* For modern browsers */
+.wrapper {
+  width: 74%;
+  margin: 0% 13%%;
+}
+
+.pulldown
+{
+  padding: 50px 0px;
+}
+
 .clearfix:before,
 .clearfix:after 
 {
@@ -15,15 +25,23 @@
     zoom:1;
 }
 
- code
- {
-  border: 1px solid #CCC;
-  padding: 1px;
-  vertical-align: middle;
-  font-family: "Consolas", "Inconsolata", "Meslo", "Inconsolata-dz", monospace;
-  text-shadow: none;
-  font-size: 10pt;
- }
+p {
+  font-size: 12;
+  font-family: $primary_font, $secondary_font, $tertiary_font;
+  color: $text_color;
+  text-shadow: $text_shadow;
+  -webkit-font-smoothing: antialiased;
+}
+
+code
+{
+border: 1px solid #CCC;
+padding: 1px;
+vertical-align: middle;
+font-family: "Consolas", "Inconsolata", "Meslo", "Inconsolata-dz", monospace;
+text-shadow: none;
+font-size: 10pt;
+}
 
 html, body {
   width: 100%;
@@ -59,41 +77,11 @@ a:hover
   text-decoration: underline;
 }
 
+
 i 
 {
   font-style: italic;
 }
-
-
-
-
-// Used in the FAQ
-details, summary
-{
-  outline: none;
-}
-summary
-{
-  text-decoration: none;
-  color: $summary_color;
-  user-select: none;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  font-size: 20px;
-  line-height: 1.3;
-
-}
-summary:hover
-{
-  text-decoration: underline;
-  cursor: pointer;
-}
-details summary::-webkit-details-marker { display:none; content: ""; }
-// Styling the polyfill for browsers that don't support details/summary tags
-.no-details details { display: block }
-.no-details details > summary::before { content:none }
-.no-details details.open > summary::before {   content:none }
-
 
 
 h1 {
@@ -151,30 +139,10 @@ h5 {
   margin-top: 1px;
 }
 
-.wrapper {
-  width: 935px;
-  margin: 0px 137px;
-}
-
 .center {
   text-align: center;
 }
 
-.gray_background 
-{
-  width:  100%;
-  padding: 50px 0px 0px 0px;
-  background: $gray_background_top_color; /* Old browsers */
-  background: -moz-linear-gradient(top,  $gray_background_top_color 0%, $gray_background_middle_color 50%, $gray_background_bottom_color 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$gray_background_top_color), color-stop(50%,$gray_background_middle_color), color-stop(100%,$gray_background_bottom_color)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f6f6f6', endColorstr = '#fafafa', GradientType = 0);
-  border-bottom: 1px solid $gray_background_border_color;
-}
-/*
 .button:hover {
   text-decoration: none;
   color: $button_hovered_color;
@@ -194,5 +162,3 @@ body.lt-ie9 {
     background-color: #add8e6 !important;
   }
 }
- */
-
