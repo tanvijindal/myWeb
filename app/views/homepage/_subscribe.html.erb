@@ -2,7 +2,7 @@
   <h4>Subscribe for news and early access.</h4>
 </div>
 <div>
-<%= form_tag '/preorder/prefill', :class => "subscribe_email_form", :method => 'post', data: {remote: true} do %>
+<%= form_tag '/homepage/subscribe', :class => "subscribe_email_form", :method => 'post', data: {remote: true} do %>
 	<%= email_field_tag "email", nil, :placeholder => "Email address", :required => "required", :class=>"text_field"%>
 	<%= submit_tag Settings.call_to_action, :class => "subscribe_button" %>
   <% end %>
