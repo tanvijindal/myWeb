@@ -1,0 +1,64 @@
+.subscribe_form_container
+{
+  position: relative;
+  width:935px;
+  height: 500px;
+  z-index: 999;
+}
+
+.subscribe_form
+{
+  position: absolute;
+  bottom: 100px;
+  right: 40px;
+}
+
+
+.subscribe_email_form
+{
+  padding: 4px;
+  border-radius: 10px;
+  border: 2px solid #CCC;
+  outline: none;
+  width: 300px;
+  background-color: white;
+}
+
+.subscribe_call
+{
+  width: 350px;
+  padding: 0px 5px;
+}
+
+.subscribe_call h4
+{
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.subscribe_button
+{
+  display: inline;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 3px;
+  margin: 0 auto;
+  width: 50px;
+  font-size: 18px;
+  background-color: #550055;
+  color: $button_color; /* text color */
+  float: right;
+}
+
+.text_field
+{
+  font-size: 18px;
+  padding: 5px;
+  margin: 0 auto;
+  width: 230px;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: inline;
+}
+

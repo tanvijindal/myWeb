@@ -1,43 +1,41 @@
-#pikmoments_header
+#header
 {
   border: none;
-  a
-  {
-    border: none !important;
-    font-size: inherit !important;
-  }
-}
-#header 
-{
   width: 100%;
-  padding: 26px 0;
+  padding: 0;
   -moz-box-shadow:    0px 1px 3px 0px #acacac;
   -webkit-box-shadow: 0px 1px 3px 0px #acacac;
   box-shadow:         0px 1px 3px 0px #acacac;
-  background: #fcfcfc;
-  position: relative;
-  #logo
-  {
-      width: 50%;
-      float: left;
-      height: 100px;
-      .thumbnail
-      {
-          float: right;
-      }
-  }
-  #product_name{
-      width:50%;
-      float: left;
-      height: 100px;
-      .inner
-      {
-          margin-top: 29px;
-      }
-      h1{
-          width:50%;
-          float:left;
-          margin-left: 0px;
-      }
-  }
+  background: #ffffff;
+  opacity: 0.7;
+  position: fixed;
+  z-index: 999;
+}
+
+#header #logo
+{
+  width: 50%;
+  float: left;
+  height: 100px;
+}
+
+#header #logo .thumbnail
+{
+  float: right;
+}
+
+#header #product_name{
+  width:100%;
+  float: left;
+  height: 50px;
+  margin-left: 10px;
+}
+
+#header #product_name .inner
+{
+  margin-top: 0px;
+}
+#header #product_name h1{
+  float:left;
+  margin-left: 0px;
 }
