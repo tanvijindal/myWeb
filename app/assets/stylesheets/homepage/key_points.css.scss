@@ -1,44 +1,50 @@
 .big_wrapper {
+  width: 100%;
   border-bottom: 1px solid #d2d2d2;
   background: #fff;
 }
-.big_wrapper .wrapper {
-  padding: 35px 0;
+
+.key_point
+{
+  width: 50%;
+  padding: 30px 10px 10px 10px;
 }
 
-.point_copy {
-  width: 440px;
-  h3 {
-    margin: 20px 0 30px 0;
-  }
+.point_detail
+{
+  width: 50%;
+  padding: 10px 10px;
 }
 
-.point_copy p, #other_points li p {
-    line-height: 1.5;
+.point_detail p
+{
+  line-height: 1.5;
 }
 
-#one {
-  background: url(image_path("1-background.png")) no-repeat bottom left;
-  height: 320px;
-  width: 936px;
-}
-
-#two {
-  background: url(image_path("2-background.png")) no-repeat bottom left;
+#one
+{
+  background: url(image_path("1-background.png")) no-repeat top left;
   height: 320px;
 }
 
-#three {
-  background: url(image_path("3-background.png")) no-repeat bottom left;
+#two
+{
+  background: url(image_path("2-background.png")) no-repeat top left;
+  height: 320px;
+}
+
+#three
+{
+  background: url(image_path("3-background.png")) no-repeat top left;
   height: 320px;
 }
 
 #four {
-  background: url(image_path("4-background.png")) no-repeat bottom left;
-  height: 320px;
-  width: 936px;
+  background: url(image_path("4-background.png")) no-repeat top left;
+  height: 400px;
 }
 
-.right {
-  margin-left: 500px;
+.right
+{
+  float: right;
 }
