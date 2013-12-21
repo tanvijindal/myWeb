@@ -28,8 +28,6 @@
 p {
   font-size: 12;
   font-family: $primary_font, $secondary_font, $tertiary_font;
-  color: $text_color;
-  text-shadow: $text_shadow;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -61,8 +59,6 @@ body, input, textarea
 {
   font-size: $font_size;
   font-family: $primary_font, $secondary_font, $tertiary_font;
-  color: $text_color;
-  text-shadow: $text_shadow;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -89,7 +85,6 @@ h1 {
   font-family: Helvetica;
   font-size: 30px;
   font-weight: bold;
-  color: $h1_color;
   letter-spacing: -.05em;
   float: left;
   margin-top: 5px;
@@ -97,12 +92,10 @@ h1 {
   width: 100%;
   a
   {
-    color: $h1_color;
     text-decoration: none;
   }
   a:hover
   {
-    color: $h1_color;
     text-decoration: none;
   }
 }
@@ -110,14 +103,12 @@ h1 {
 h2 {
   font-family: $primary_font, $secondary_font, $tertiary_font;
   font-size: 26px;
-  color: $h2_color;
   margin-top: 4px;
   margin-bottom: 4px;
 }
 
 h3 {
   font-size: 22px;
-  color: $h4_color;
   font-family: $primary_font, $secondary_font, $tertiary_font;
   margin-top: 3px;
   margin-bottom: 3px;
@@ -125,7 +116,6 @@ h3 {
 
 h4 {
   font-size: 18px;
-  color: $h4_color;
   font-family: $primary_font, $secondary_font, $tertiary_font;
   margin-bottom: 2px;
   margin-top: 2px;
@@ -134,7 +124,6 @@ h4 {
 h5 {
   font-size: 14px;
   font-family: $primary_font, $secondary_font, $tertiary_font;
-  color: $h5_color;
   margin-bottom: 1px;
   margin-top: 1px;
 }
