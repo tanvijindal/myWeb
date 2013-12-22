@@ -43,6 +43,6 @@ Selfstarter::Application.configure do
 	:address => "smtp.mandrillapp.com",
 	:port => 587,
 	:user_name  => "thecuriousant@gmail.com",
-	:password   => "GgbLEcHFNN8aiib6cxaW0w"
+	:password   => "Wq10yB04hMHo78avmJsBjA"
   }
 end
