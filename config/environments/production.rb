@@ -39,10 +39,11 @@ Selfstarter::Application.configure do
   config.action_mailer.delivery_method = :smtp
 
   config.action_mailer.smtp_settings = {
-    :address => "smtp.mandrillapp.com",
+    :address => "smtp.gmail.com",
     :port => "587",
-    :user_name => "app19910319@heroku.com",
-    :password => "2vnYmqdclHxJYUw_X2FAGg",
+    :user_name => "pikmoments@gmail.com",
+	enable_starttls_auto: true,
+    :password => "Inlol@nt1",
     :authentication => :plain
   }
   
