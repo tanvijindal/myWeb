@@ -1,7 +1,9 @@
 .footer
 {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(20, 20, 20, 0.7);
   height: 100px;
+  color: #ffffff;
+
 }
 
 .footer-left
@@ -26,8 +28,13 @@
 .footer a
 {
   text-decoration: none;
-  color: rgba(0,0,0,0.6);
   font-size: 14px;
+  color: #ffffff;
+}
+
+.footer a:hover
+{
+  color: rgba(240, 240, 240, 0.6);
 }
 
 .website-links-container

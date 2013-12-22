@@ -7,33 +7,22 @@
   -moz-box-shadow:    0px 1px 3px 0px #acacac;
   -webkit-box-shadow: 0px 1px 3px 0px #acacac;
   box-shadow:         0px 1px 3px 0px #acacac;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(20,20,20, 0.7);
   position: fixed;
   z-index: 999;
-}
-
-#header #logo
-{
-  width: 50%;
-  float: left;
-  height: 100px;
-}
-
-#header #logo .thumbnail
-{
-  float: right;
 }
 
 #header #product_name{
   width: 20%;
   float: left;
-  height: 50px;
+  height: 45px;
   margin-left: 10px;
+  padding-top: 5px;
 }
 
 #header #product_name h1{
   width: 100%;
   float:left;
   margin-left: 0px;
-  color: #550055;
+  color: #ffffff;
 }

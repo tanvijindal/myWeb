@@ -5,7 +5,7 @@ class UserMailer < ActionMailer::Base
 	def signup_mail(user)
 	  @user = user
 	  begin
-		mandrill = Mandrill::API.new 'GgbLEcHFNN8aiib6cxaW0w'
+		mandrill = Mandrill::API.new '2vnYmqdclHxJYUw_X2FAGg'
 		message = {"subject" => "Thank you for signing up for Pikmoments!",
 		  "text"=>"We are really happy to see you!",
 		  "from_email" => "pikmoments@gmail.com",

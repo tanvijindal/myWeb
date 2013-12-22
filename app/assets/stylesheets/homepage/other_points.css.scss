@@ -1,28 +1,38 @@
-#other_points 
+.other_points_container
 {
-  li 
-  {
-    width: 400px;
-    float: left;
-    margin: 0 120px 50px 0;
-    padding-top: 60px;
-  }
-  #section-1 {
-    background: url(asset-path("", "images")) no-repeat center top;
-  }
-  #section-2 {
-    background: url(asset-path("", "images")) no-repeat center top;
-    margin-right: 0px;
-  }
-  #section-3 {
-    background: url(asset-path("", "images")) no-repeat center top;
-  }
-  #section-4 {
-    background: url(asset-path("", "images")) no-repeat center top;
-    margin-right: 0px;
-  }
-  h4 {
-    width: 400px;
-    text-align: center;
-  }
+  background-color: #F0F0F0;
+  border-bottom: 1px solid #c4c4c4;
+
+}
+
+#other_points div
+{
+  display: block;
+  width: 40%;
+  line-height: 1.75;
+  margin: 20px 5%;
+}
+
+#other_points p{
+  text-align: justify;
+  padding: 10px 10px 30px 10px;
+
+}
+
+#other_points h2
+{
+  text-align: center;
+  padding: 10px;
+}
+
+#section-1
+{
+  float: left;
+  background: url(asset-path("", "images")) no-repeat center top;
+}
+#section-2
+{
+  background: url(asset-path("", "images")) no-repeat center top;
+  margin-right: 0px;
+  float: right;
 }

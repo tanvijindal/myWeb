@@ -2,22 +2,13 @@
 {
   width:  100%;
   padding: 50px 0px 0px 0px;
-  background: $gray_background_top_color; /* Old browsers */
-  background: -moz-linear-gradient(top,  $gray_background_top_color 0%, $gray_background_middle_color 50%, $gray_background_bottom_color 100%); /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$gray_background_top_color), color-stop(50%,$gray_background_middle_color), color-stop(100%,$gray_background_bottom_color)); /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* IE10+ */
-  background: linear-gradient(to bottom,  $gray_background_top_color 0%,$gray_background_middle_color 50%,$gray_background_bottom_color 100%); /* W3C */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#f6f6f6', endColorstr = '#fafafa', GradientType = 0);
-  border-bottom: 1px solid $gray_background_border_color;
 }
 
 .slideshow
 {
   position: relative;
   width: 100%;
-  height: $slide_height;
+  height : 630px;
   margin: 0px 2px;
   -moz-box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */
   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,.39); /* drop shadow */
@@ -27,29 +18,29 @@
 #slide1
 {
   background: url(image-path("1_slide.jpg")) no-repeat top left;
-  -webkit-background-size : 100% $slide_height;
-  -moz-background-size : 100% $slide_height;
-  -o-background-size : 100% $slide_height;
-  background-size : 100% $slide_height;
+  -webkit-background-size : 100% 630px;
+  -moz-background-size : 100% 630px;
+  -o-background-size : 100% 630px;
+  background-size : 100% 630px;
 }
 
 #slide2
 {
   background: url(image_path("2_slide.jpg")) no-repeat top left;
-  -webkit-background-size : 100% $slide_height;
-  -moz-background-size : 100% $slide_height;
-  -o-background-size : 100% $slide_height;
-  background-size : 100% $slide_height;
+  -webkit-background-size : 100% 630px;
+  -moz-background-size : 100% 630px;
+  -o-background-size : 100% 630px;
+  background-size : 100% 630px;
 
 }
 
 #slide3
 {
   background: url(image_path("3_slide.jpg")) no-repeat top left;
-  -webkit-background-size : 100% $slide_height;
-  -moz-background-size : 100% $slide_height;
-  -o-background-size : 100% $slide_height;
-  background-size : 100% $slide_height;
+  -webkit-background-size : 100% 630px;
+  -moz-background-size : 100% 630px;
+  -o-background-size : 100% 630px;
+  background-size : 100% 630px;
 
 }
 
@@ -57,11 +48,11 @@
 {
   position: absolute;
   width: 100%;
-  height: $slide_height;
+  height: 630px;
   z-index: 8;
   top: 0;
   left: 0;
-  color: #ff0000;
+  color: #000000;
 }
 
 .slideshow .slides h1
@@ -75,7 +66,7 @@
 {
   position: absolute;
   width: 100%;
-  height: $slide_height;
+  height: 630px;
   top: 0;
   left: 0;
 }

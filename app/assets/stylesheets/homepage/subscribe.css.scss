@@ -16,7 +16,7 @@
 
 .subscribe_email_form
 {
-  padding: 2%;
+  padding: 3px 2%;
   border-radius: 10px;
   border: 1% solid #CCC;
   outline: none;
@@ -35,7 +35,8 @@
   width: 100%;
   margin-bottom: 2px;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
+  color: #ffffff;
 }
 
 .subscribe_button
@@ -43,19 +44,19 @@
   display: inline;
   border: 2px solid white;
   border-radius: 5px;
-  padding: 1%;
+  padding: 3px 1%;
   margin: 0 auto;
   width: 20%;
-  font-size: 14px;
-  background-color: #550055;
-  color: $button_color; /* text color */
+  font-size: 16px;
+  background-color: #00afd8;
   float: right;
+  font-weight: bold;
 }
 
 .text_field
 {
-  font-size: 14px;
-  padding: 1%;
+  font-size: 16px;
+  padding: 3px 1%;
   margin: 0 auto;
   width: 68%;
   outline: none;

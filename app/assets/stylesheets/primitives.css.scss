@@ -1,3 +1,8 @@
+$body_background: #E6E6E6;
+
+$primary_font:   "Helvetica Neue";
+$secondary_font: "Helvetica";
+$tertiary_font:  "Arial";
 
 /* For modern browsers */
 .wrapper {
@@ -57,7 +62,6 @@ body {
 
 body, input, textarea
 {
-  font-size: $font_size;
   font-family: $primary_font, $secondary_font, $tertiary_font;
   -webkit-font-smoothing: antialiased;
 }
@@ -65,7 +69,6 @@ body, input, textarea
 a 
 {
   text-decoration: none;
-  color: $link_color;
 }
 
 a:hover 
@@ -131,7 +134,7 @@ h5 {
 .center {
   text-align: center;
 }
-
+/*
 .button:hover {
   text-decoration: none;
   color: $button_hovered_color;
@@ -141,7 +144,7 @@ h5 {
   background: $button_active_background;
   border: 1px solid $button_active_border;
 }
-
+*/
 body.lt-ie9 {
   .subscribe_button {
     background-color: #0D97E6 !important;
