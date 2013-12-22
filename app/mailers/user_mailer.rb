@@ -1,6 +1,7 @@
 require 'mandrill'
 
 class UserMailer < ActionMailer::Base
+  default from: 'pikmoments@gmail.com'
   
   def welcome_email(user)
     @user = user
