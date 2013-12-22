@@ -8,7 +8,7 @@ class HomepageController < ApplicationController
 	
 	if(@user)
 	  @user.update(:updated_at => Time.now)
-	  UserMailer.re_attempt_to_subscribe_mail(@user)
+	  UserMailer.welcome_email(@user)
 	  respond_to do |format|
 		format.html {redirect_to '/'}
 		format.js {render :nothing => "true"}
@@ -16,7 +16,7 @@ class HomepageController < ApplicationController
 	else
 	  @user = User.find_or_create_by(:email => params[:email], :ip => @user_ip)
 	  if @user
-		UserMailer.signup_mail(@user)
+		UserMailer.welcome_email(@user)
 		respond_to do |format|
 		  format.html {redirect_to '/'}
 		  format.js {}
