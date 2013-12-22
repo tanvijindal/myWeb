@@ -22,7 +22,6 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 4.0.0'
-  gem 'coffee-rails', '~> 4.0.0'
   gem 'uglifier', '>= 1.0.3'
 end
 
@@ -34,6 +33,8 @@ end
 # jQuery
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
+gem 'coffee-rails', '~> 4.0.0'
+
 
 # Kickstarter's awesome Amazon Flexible Payments gem
 gem 'amazon_flex_pay'
