@@ -42,8 +42,8 @@ Selfstarter::Application.configure do
 	  address: "smtp.mandrillapp.com",
 	  port: 587,
 	  domain: 'heroku.com',
-	  user_name: "thecuriousant@gmail.com",
-	  password: "rEk2drcOVMqb1VKdFNAEcA",
+	  user_name: "app19910319@heroku.com",
+	  password: "2vnYmqdclHxJYUw_X2FAGg",
 	  :authentication => :plain
 	}
   
