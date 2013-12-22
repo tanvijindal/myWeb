@@ -21,10 +21,10 @@ class HomepageController < ApplicationController
 		  format.html {redirect_to '/'}
 		  format.js {render :nothing => "true"}
 		end
-		else
+	  else
 		respond_to do |format|
-		  format.html {redirect_to '/'}
-		  format.js {redirect_to '/'}
+		  format.html {redirect_to '/privacy'}
+		  format.js {redirect_to '/about'}
 		end
 	  end
 	end
