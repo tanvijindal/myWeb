@@ -36,13 +36,7 @@ Selfstarter::Application.configure do
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-
   
   config.action_mailer.delivery_method = :smtp
-  ActionMailer::Base.smtp_settings = {
-	:address => "smtp.mandrillapp.com",
-	:port => 587,
-	:user_name  => "thecuriousant@gmail.com",
-	:password   => "Wq10yB04hMHo78avmJsBjA"
-  }
+  
 end
