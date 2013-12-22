@@ -11,7 +11,7 @@ class UserMailer < ActionMailer::Base
   def signup_mail(user)
 	@user = user
 	begin
-	  mandrill = Mandrill::API.new 'Wq10yB04hMHo78avmJsBjA'
+	  mandrill = Mandrill::API.new ENV['MANDRILL_APIKEY']
 	  message = {"subject" => "Thank you for signing up for Pikmoments!",
 		"text"=>"We are really happy to see you!",
 		"html"=>"<p>We are really happy to see you!</p>",
@@ -28,7 +28,7 @@ class UserMailer < ActionMailer::Base
   def re_attempt_to_subscribe_mail(user)
 	@user = user
 	begin
-	  mandrill = Mandrill::API.new 'Wq10yB04hMHo78avmJsBjA'
+	  mandrill = Mandrill::API.new ENV['MANDRILL_APIKEY']
 	  message = {"subject" => "You are already in the elite list for Pikmoments!",
 		"text"=>"We are really happy to see you!",
 		"from_email" => "pikmoments@gmail.com",
