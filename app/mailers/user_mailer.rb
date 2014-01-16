@@ -1,12 +1,11 @@
-require 'mandrill'
-
 class UserMailer < ActionMailer::Base
   default from: 'pikmoments@gmail.com'
   
   def welcome_email(user)
     @user = user
-    @url  = 'http://example.com/login'
-    mail(to: @user.email, subject: 'Welcome to My Awesome Site')
+    @url  = 'http://www.pikmoments.com'
+    mail :to => @user.email,
+		 :subject => 'Pikmoments: Capture beautiful moments automatically'
   end
   
   def signup_mail(user)
@@ -37,7 +36,7 @@ class UserMailer < ActionMailer::Base
 	  }
 	  async = true
 	  result = mandrill.messages.send message, async
-	  rescue Mandrill::Error => e
+	rescue Mandrill::Error => e
 	  puts "A mandrill error occurred: #{e.class} - #{e.message}"
 	  raise
 	end

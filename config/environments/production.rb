@@ -39,9 +39,10 @@ Selfstarter::Application.configure do
   config.action_mailer.smtp_settings = {
 	:address => "smtp.mandrillapp.com",
 	:port => "587",
-	:user_name => "app19910319@heroku.com",
-	:password => "2vnYmqdclHxJYUw_X2FAGg",
-	:authentication => :plain
+	:user_name => MANDRILL_USERNAME,
+	:password => MANDRILL_APIKEY,
+	:authentication => :plain,
+	:domain => "http://www.pikmoments.com"
   }
 
 end
