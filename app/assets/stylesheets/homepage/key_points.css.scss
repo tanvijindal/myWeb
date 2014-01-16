@@ -4,15 +4,21 @@
   background: #fff;
 }
 
-.key_point
+.key_point_outer
 {
   width: 50%;
+  padding: 50px 10px 50px 10px;
+}
+
+.key_point
+{
+  width: 100%;
   padding: 30px 10px 10px 10px;
 }
 
 .point_detail
 {
-  width: 50%;
+  width: 100%;
   padding: 10px 10px;
 }
 
