@@ -1,16 +1,19 @@
 .other_points_container
 {
   background-color: #F0F0F0;
-  border-bottom: 1px solid #c4c4c4;
+  text-align: center;
+  border-top: 10px solid white;
+  border-bottom: 10px solid white;
 
 }
 
 #other_points div
 {
-  display: block;
+  display: inline-block;
   width: 40%;
   line-height: 1.75;
   margin: 20px 5%;
+  
 }
 
 #other_points p{
@@ -21,7 +24,6 @@
 
 #other_points h2
 {
-  text-align: center;
   padding: 10px;
 }
 
@@ -30,6 +32,7 @@
   float: left;
   background: url(asset-path("", "images")) no-repeat center top;
 }
+
 #section-2
 {
   background: url(asset-path("", "images")) no-repeat center top;

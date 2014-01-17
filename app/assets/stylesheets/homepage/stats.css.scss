@@ -52,7 +52,7 @@
   z-index: 8;
   top: 0;
   left: 0;
-  color: #000000;
+  color: rgb(0,175,216);
 }
 
 .slideshow .slides h1
@@ -60,6 +60,7 @@
   position: absolute;
   top: 40px;
   left: 200px;
+  font-size: 30px;
 }
 
 .slideshow .slides div

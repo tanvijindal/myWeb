@@ -5,16 +5,15 @@ ruby '2.0.0'
 gem 'rails', '4.0.0'
 gem 'json', '~> 1.7.7'
 gem 'mandrill-api'
+gem 'pg'
 
 group :development do
-  gem 'pg'
   gem 'pry-rails'
   gem 'rails_12factor'
 end
 
 group :production do
   gem 'thin'
-  gem 'pg'
 end
 
 

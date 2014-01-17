@@ -1,6 +1,7 @@
 .big_wrapper {
   width: 100%;
-  border-bottom: 1px solid #d2d2d2;
+  /*border-bottom: 1px solid #d2d2d2;*/
+  border-top: 10px solid white;
   background: #fff;
 }
 
@@ -8,12 +9,17 @@
 {
   width: 50%;
   padding: 50px 10px 50px 10px;
+  font-weight: normal;
 }
 
-.key_point
+.key_point h1
 {
   width: 100%;
-  padding: 30px 10px 10px 10px;
+  padding: 30px 10px 10px 30px;
+  color: rgb(0,175,216);
+  letter-spacing: 0.5px;
+  line-height: 1.25;
+
 }
 
 .point_detail
@@ -24,30 +30,51 @@
 
 .point_detail p
 {
-  line-height: 1.5;
+  font-size: 20px;
+  line-height: 1.75;
+  letter-spacing: 0.5px;
 }
 
 #one
 {
-  background: url(image_path("1-background.png")) no-repeat top left;
-  height: 320px;
+  background: url(image_path("keyPoint1.png")) no-repeat bottom left;
+  height: 400px;
+}
+
+#one_outer
+{
+  background: url(image_path("fresh_snow.png")) repeat top left;
+  height: 400px;
 }
 
 #two
 {
-  background: url(image_path("2-background.png")) no-repeat top left;
+  background: url(image_path("keyPoint2.png")) no-repeat top left;
+  height: 400px;
+}
+
+
+#two_outer
+{
+  background: url(image_path("sandpaper.png")) repeat top left;
   height: 400px;
 }
 
 #three
 {
-  background: url(image_path("3-background.png")) no-repeat top left;
-  height: 320px;
+  background: url(image_path("keyPoint3.png")) no-repeat bottom left;
+  height: 400px;
 }
 
-#four {
-  background: url(image_path("4-background.png")) no-repeat top left;
+#three_outer
+{
+  background: url(image_path("grunge_wall.png")) repeat top left;
   height: 400px;
+}
+
+#four_outer {
+  background: url(image_path("4-background.jpg")) no-repeat top left;
+  height: 393px;
 }
 
 .right

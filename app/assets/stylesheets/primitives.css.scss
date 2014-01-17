@@ -30,7 +30,13 @@ $tertiary_font:  "Arial";
     zoom:1;
 }
 
-p {
+html
+{
+  max-width:1270px;
+}
+
+p 
+{
   font-size: 12;
   font-family: $primary_font, $secondary_font, $tertiary_font;
   -webkit-font-smoothing: antialiased;
@@ -87,7 +93,6 @@ h1 {
   margin: 0 auto;
   font-family: Helvetica;
   font-size: 30px;
-  font-weight: bold;
   letter-spacing: -.05em;
   float: left;
   margin-top: 5px;
