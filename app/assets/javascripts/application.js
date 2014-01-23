@@ -16,4 +16,6 @@
 //= require jquery.ui.all
 //= require jquery.textchange
 //= require preorder
+//= require subscribe
+//= require slideshow
 //= require_tree .
