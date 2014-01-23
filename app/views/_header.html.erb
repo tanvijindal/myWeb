@@ -1,4 +1,4 @@
-<div class="header">
+<div class="header container">
   <div class="wrapper clearfix">
 	  <div id="product_name">
 		<a href='/'>
@@ -8,15 +8,8 @@
 		</a>
 	  </div>
 	  <div id="header_right">
-		<div class="website-links-container">
-		  <ul class="website-links">
-			<li>
-			  <%= link_to 'ABOUT US', '/about' %>
-			</li>
-			<li>
-			  <%= link_to 'PRIVACY', '/privacy' %>
-			</li>
-		  </ul>
+		<div class="subscribe_form_container">
+		  <%= render '/homepage/subscribe' %>
 		</div>
 	  </div>
   </div>

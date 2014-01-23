@@ -5,6 +5,14 @@ $secondary_font: "Helvetica";
 $tertiary_font:  "Arial";
 
 /* For modern browsers */
+
+
+.container
+{
+  width:100%;
+  margin: 0;
+}
+
 .wrapper {
   width: 74%;
   margin: 0% 13%;
@@ -12,7 +20,7 @@ $tertiary_font:  "Arial";
 
 .pulldown
 {
-  padding: 50px 0px;
+  padding: 50px 0px 0px 0px;
 }
 
 .clearfix:before,
@@ -30,11 +38,6 @@ $tertiary_font:  "Arial";
     zoom:1;
 }
 
-html
-{
-  max-width:1270px;
-}
-
 p 
 {
   font-size: 12;
@@ -50,10 +53,6 @@ vertical-align: middle;
 font-family: "Consolas", "Inconsolata", "Meslo", "Inconsolata-dz", monospace;
 text-shadow: none;
 font-size: 10pt;
-}
-
-html, body {
-  width: 100%;
 }
 
 body {
@@ -139,17 +138,7 @@ h5 {
 .center {
   text-align: center;
 }
-/*
-.button:hover {
-  text-decoration: none;
-  color: $button_hovered_color;
-}
 
-.button:active {
-  background: $button_active_background;
-  border: 1px solid $button_active_border;
-}
-*/
 body.lt-ie9 {
   .subscribe_button {
     background-color: #0D97E6 !important;

@@ -22,15 +22,16 @@
 
 .header #product_name h1{
   width: 100%;
-  float:left;
+  float: left;
   margin-left: 0px;
   color: #ffffff;
 }
 
 #header_right
 {
-  float:right;
-
+  position: relative;
+  float: right;
+  width: 50%;
 }
 
 .header a
