@@ -10,8 +10,10 @@ $tertiary_font:  "Arial";
 .container
 {
   width:100%;
+  max-width:1270px;
   margin: 0;
   font-size: 62.5%;
+  align:center;
 }
 
 .wrapper {
