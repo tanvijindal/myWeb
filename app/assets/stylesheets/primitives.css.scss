@@ -11,6 +11,7 @@ $tertiary_font:  "Arial";
 {
   width:100%;
   margin: 0;
+  font-size: 62.5%;
 }
 
 .wrapper {
@@ -20,7 +21,7 @@ $tertiary_font:  "Arial";
 
 .pulldown
 {
-  padding: 50px 0px 0px 0px;
+  padding-top: 5em;
 }
 
 .clearfix:before,
@@ -40,19 +41,9 @@ $tertiary_font:  "Arial";
 
 p 
 {
-  font-size: 12;
+  font-size: 1.7em;
   font-family: $primary_font, $secondary_font, $tertiary_font;
   -webkit-font-smoothing: antialiased;
-}
-
-code
-{
-border: 1px solid #CCC;
-padding: 1px;
-vertical-align: middle;
-font-family: "Consolas", "Inconsolata", "Meslo", "Inconsolata-dz", monospace;
-text-shadow: none;
-font-size: 10pt;
 }
 
 body {
@@ -81,7 +72,6 @@ a:hover
   text-decoration: underline;
 }
 
-
 i 
 {
   font-style: italic;
@@ -91,11 +81,10 @@ i
 h1 {
   margin: 0 auto;
   font-family: Helvetica;
-  font-size: 30px;
-  letter-spacing: -.05em;
+  font-size: 3em;
   float: left;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
   a
   {
     text-decoration: none;
@@ -108,30 +97,30 @@ h1 {
 
 h2 {
   font-family: $primary_font, $secondary_font, $tertiary_font;
-  font-size: 26px;
-  margin-top: 4px;
-  margin-bottom: 4px;
+  font-size: 2.6em;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
 }
 
 h3 {
-  font-size: 22px;
+  font-size: 2.2em;
   font-family: $primary_font, $secondary_font, $tertiary_font;
-  margin-top: 3px;
-  margin-bottom: 3px;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.8em;
   font-family: $primary_font, $secondary_font, $tertiary_font;
-  margin-bottom: 2px;
-  margin-top: 2px;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
 }
 
 h5 {
-  font-size: 14px;
+  font-size: 1.4em;
   font-family: $primary_font, $secondary_font, $tertiary_font;
-  margin-bottom: 1px;
-  margin-top: 1px;
+  margin-bottom: 0.1em;
+  margin-top: 0.1em;
 }
 
 .center {
