@@ -7,15 +7,6 @@
 
 }
 
-#other_points div
-{
-  display: inline-block;
-  width: 40%;
-  line-height: 1.75;
-  margin: 20px 5%;
-  
-}
-
 #other_points p{
   text-align: justify;
   padding: 10px 10px 30px 10px;
@@ -27,6 +18,15 @@
   padding: 10px;
 }
 
+#other_points li
+{
+  list-style-type: none;
+  display: inline-block;
+  line-height: 1.75;
+  margin: 20px 5%;
+  width: 40%;
+}
+
 #section-1
 {
   float: left;
@@ -36,6 +36,25 @@
 #section-2
 {
   background: url(asset-path("", "images")) no-repeat center top;
-  margin-right: 0px;
   float: right;
+}
+
+/* Smartphone */
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) and (min-width : 320px) and (max-width : 480px)
+{
+  #other_points li
+  {
+	display: block;
+	line-height: 1.75;
+	margin: 20px 5%;
+	color: #ff0000;
+  }
+  #section-1
+  {
+	float:none;
+  }
+  #section-2
+  {
+	float:none;
+  }
 }
