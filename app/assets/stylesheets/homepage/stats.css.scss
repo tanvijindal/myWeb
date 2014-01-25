@@ -5,15 +5,19 @@
 
 #slide1 {
 	background: url(image-path("1_slide.jpg")) no-repeat top left;
+	background-size: cover;
 }
 
 #slide2 {
 	background: url(image_path("2_slide.jpg")) no-repeat top left;
+	background-size: cover;
 
 }
 
 #slide3 {
 	background: url(image_path("3_slide.jpg")) no-repeat top left;
+	background-size: cover;
+
 }
 
 .slideshow .slides {
@@ -53,7 +57,6 @@
 	left: 0;
 	right: 0;
 	display: block;
-	
 }
 
 .slideshow .slide-pagination .pagination-tabs {
