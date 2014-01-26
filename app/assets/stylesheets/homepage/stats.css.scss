@@ -76,6 +76,39 @@
 	opacity: 0.9;
 }
 
+.slideshow .slide-arrows
+{
+  position: absolute;
+  top: 50%;
+	z-index: 999;
+	height: auto;
+	left: 0;
+	right: 0;
+	display: block;
+  opacity: 0.5;
+}
+
+.slideshow .slide-arrows .arrow-left
+{
+  background: url(image_path("left_arrow.png")) no-repeat;
+  background-size: 40px 40px;
+  width: 40px;
+  height:40px;
+  margin: 0px 20px;
+  float: left;
+}
+
+.slideshow .slide-arrows .arrow-right
+{
+  background: url(image_path("right_arrow.png")) no-repeat;
+  background-size: 40px 40px;
+  width: 40px;
+  height:40px;
+  margin: 0px 20px;
+  float: right;
+}
+
+
 /* Smartphone */
 @media only screen
 and (min-device-width : 320px)
