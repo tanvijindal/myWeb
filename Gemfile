@@ -6,6 +6,7 @@ gem 'rails', '4.0.0'
 gem 'json', '~> 1.7.7'
 gem 'mandrill-api'
 gem 'pg'
+gem 'active_attr'
 
 group :development do
   gem 'pry-rails'

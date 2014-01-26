@@ -7,4 +7,7 @@ Selfstarter::Application.routes.draw do
   match '/privacy'                    => 'privacy#index', :via => [:get]
   match '/about'               => 'about_us#index', :via => [:get]
   match '/homepage/subscribe'    => 'homepage#subscribe', :via => [:get,:post]
+  
+  match 'contact' => 'contact#new', :via => [:get]
+  match 'contact' => 'contact#create', :via => [:post]
 end
