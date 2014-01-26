@@ -57,22 +57,16 @@
 	left: 0;
 	right: 0;
 	display: block;
+	text-align: center;
 }
 
-.slideshow .slide-pagination .pagination-tabs {
-	width: 6%;
-	position: absolute;
-	left: 47%;
-}
-
-.slideshow .slide-pagination .pagination-tabs div {
-	display: block;
-	float: left;
-	width: 20%;
+.slideshow .slide-pagination div {
+	display: inline-block;
+	width: 10px;
 	height: 10px;
 	background-color: #ffffff;
-	border-radius: 10px;
-	margin: 0px 5px;
+	border-radius: 5px;
+	margin: 3px;
 }
 
 .slideshow .slide-pagination div.active {
