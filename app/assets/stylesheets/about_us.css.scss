@@ -6,11 +6,40 @@
   background : white;
 }
 
+#about-content p
+{
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#about-content a:link
+{
+  text-decoration: none;
+  color: black;
+}
+
+#about-content a:visited
+{
+  text-decoration: none;
+  color: black;
+}
+
+#about-content a:hover
+{
+  text-decoration: none;
+  color: black;
+}
+
+#about-content a:active
+{
+  text-decoration: none;
+  color: black;
+}
+
 .team_heading
 {
   margin-top: 40px;
   margin-bottom: 30px;
-  margin-left: 20px;
 }
 
 .about_founders
@@ -23,6 +52,7 @@
 .team li
 {
   display: inline-block;
+  margin: 0px 50px;
 }
 
 ul
