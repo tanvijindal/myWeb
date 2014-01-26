@@ -1,27 +1,36 @@
-details, summary
+#faqs
 {
-  outline: none;
+  background: #ffffff;
+  line-height: 1.5;
+  font-weight: normal;
+  padding-bottom: 50px;
 }
-summary
+
+#faqs h1
+{
+  width: 100%;
+}
+
+#faqs dt
 {
   text-decoration: none;
-  color: #0088D6;
+  color: #000000;
   user-select: none;
   -webkit-user-select: none;
   -moz-user-select: none;
-  font-size: 20px;
-  line-height: 1.3;
-
+  font-size: 1.8em;
+  font-size: 18px;
 }
-summary:hover
+
+#faqs dd
 {
-  text-decoration: underline;
-  cursor: pointer;
+  text-decoration: none;
+  color: #737980;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  font-size: 1.6em;
+  font-size: 16px;
+  margin-bottom: 15px;
+  
 }
-details summary::-webkit-details-marker { display:none; content: ""; }
-// Styling the polyfill for browsers that don't support details/summary tags
-.no-details details { display: block }
-.no-details details > summary::before { content:none }
-.no-details details.open > summary::before {   content:none }
-
-

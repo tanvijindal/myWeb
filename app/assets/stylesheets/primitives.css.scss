@@ -14,6 +14,9 @@ $tertiary_font:  "Arial";
   margin: 0;
   font-size: 62.5%;
   align:center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
 }
 
 .wrapper {
@@ -43,7 +46,7 @@ $tertiary_font:  "Arial";
 
 p 
 {
-  font-size: 1.7em;
+  font-size: 1.3em;
   font-family: $primary_font, $secondary_font, $tertiary_font;
   -webkit-font-smoothing: antialiased;
 }

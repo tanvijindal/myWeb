@@ -1,26 +1,39 @@
-<%= form_for @message, :url => contact_path do |form| %>
-  <fieldset class="fields">
-    <div class="field">
-      <%= form.label :name %>
-      <%= form.text_field :name %>
+<div class="pulldown wrapper clarfix" id="contact_page">
+
+  <h3>Contact Us</h3>
+
+  <%= form_for @message, :url => contact_path do |f| %>
+    <% if @message.errors.any? %>
+      <div class="error_messages">
+        <ul>
+          <% @message.errors.full_messages.each do |msg| %>
+            <li><%= msg %>.</li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+    <div class="contact_form">
+      <div class="field">
+        <%= f.label :name %><br />
+        <%= f.text_field :name, :class=>"text_field"%>
+      </div>
+      <div class="field">
+        <span class="star">*</span>
+        <%= f.label :email %><br />
+        <%= f.text_field :email, :class=>"text_field" %>
+      </div>
+      <div class="field">
+        <%= f.label :subject %><br />
+        <%= f.text_field :subject, :class=>"text_field"%>
+      </div>
+      <div class="field">
+        <span class="star">*</span>
+        <%= f.label :body, "Message" %><br />
+        <%= f.text_area :body, :rows => 5, :class=>"text_field"%>
+      </div>
+      <div class="actions">
+        <%= f.submit "Send Message", :class => "generic_button" %>
+      </div>
     </div>
-    
-    <div class="field">
-      <%= form.label :email %>
-      <%= form.text_field :email %>
-    </div>
-    <div class="field">
-      <%= form.label :subject %>
-      <%= form.text_field :subject %>
-    </div>
-    
-    <div class="field">
-      <%= form.label :body %>
-      <%= form.text_area :body %>
-    </div>
-  </fieldset>
-  
-  <fieldset class="actions">
-    <%= form.submit "Send" %>
-  </fieldset>
-<% end %>
+  <% end %>
+</div>

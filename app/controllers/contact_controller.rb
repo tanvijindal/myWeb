@@ -8,10 +8,9 @@ class ContactController < ApplicationController
     
     if @message.valid?
       FeedbackMailer.new_message(@message).deliver
-      redirect_to(root_path, :notice => "Message was successfully sent.")
+      redirect_to '/homepage', :alert => "Message was successfully sent."
 	  else
-      flash.now.alert = "Please fill all fields."
-      render :new
+      render 'new'
     end
   end
 end
