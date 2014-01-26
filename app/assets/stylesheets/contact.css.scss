@@ -1,3 +1,48 @@
-// Place all the styles related to the contact controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+#contact_page
+{
+  margin-bottom: 50px;
+  padding-left: 20px;
+}
+
+#contact_page h3
+{
+  width: 100%;
+}
+
+#contact_page .star
+{
+  color: #ff0000;
+}
+
+#contact_page .contact_form
+{
+  display:block;
+  margin: 10px 0;
+  line-height: 2;
+}
+
+#contact_page .error_messages
+{
+  display: block;
+  width: 68%;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  color: #ff0000;
+}
+
+#contact_page .actions
+{
+  padding-top: 10px;
+}
+
+#contact_page .generic_button
+{
+  display: inline;
+  border: 2px solid #00afd8;
+  border-radius: 5px;
+  padding: 6px 1%;
+  margin: 0 auto;
+  font-size: 16px;
+  background-color: #00afd8;
+}
