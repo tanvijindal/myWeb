@@ -25,11 +25,11 @@ function manual_slide_nav(event) {
   var next = $('.slideshow .slides').children('li').eq(i);
   var next_pagination_tab = $('.slideshow .slide-pagination').children('div').eq(i);
   
-  next.css({opacity: 0.0}).addClass('active').animate({opacity: 1.0}, 1000, function() {
+  next.css({opacity: 0.0}).addClass('active').animate({opacity: 1.0}, 400, function() {
 													  active.removeClass('active last-active');
 													  });
   active_pagination_tab.removeClass('active');
-  next_pagination_tab.css({opacity: 0.1}).addClass('active').animate({opacity: 1.0}, 1000);
+  next_pagination_tab.css({opacity: 0.1}).addClass('active').animate({opacity: 1.0}, 400);
   
   timeout_var = setTimeout(next_slide, 5000);
 }
@@ -43,11 +43,11 @@ function right_arrow() {
   var next = active.next().length ? active.next() : $('.slideshow .slides li:first');
   var next_pagination_tab = active_pagination_tab.next().length ? active_pagination_tab.next() : $('.slideshow .slide-pagination div:first');
   active.addClass('last-active');
-  next.css({opacity: 0.0}).addClass('active').animate({opacity: 1.0}, 1000, function() {
+  next.css({opacity: 0.0}).addClass('active').animate({opacity: 1.0}, 400, function() {
                             active.removeClass('active last-active');
                             });
   active_pagination_tab.removeClass('active');
-  next_pagination_tab.css({opacity: 0.1}).addClass('active').animate({opacity: 1.0}, 1000);
+  next_pagination_tab.css({opacity: 0.1}).addClass('active').animate({opacity: 1.0}, 400);
   
   timeout_var = setTimeout(next_slide, 5000);
 }
@@ -62,11 +62,11 @@ function left_arrow() {
   var previous = active.prev().length ? active.prev() : $('.slideshow .slides li:last');
   var previous_pagination_tab = active_pagination_tab.prev().length ? active_pagination_tab.prev() : $('.slideshow .slide-pagination div:last');
   active.addClass('last-active');
-  previous.css({opacity: 0.0}).addClass('active').animate({opacity: 1.0}, 1000, function() {
+  previous.css({opacity: 0.0}).addClass('active').animate({opacity: 1.0}, 400, function() {
                             active.removeClass('active last-active');
                             });
   active_pagination_tab.removeClass('active');
-  previous_pagination_tab.css({opacity: 0.1}).addClass('active').animate({opacity: 1.0}, 1000);
+  previous_pagination_tab.css({opacity: 0.1}).addClass('active').animate({opacity: 1.0}, 400);
   
   timeout_var = setTimeout(next_slide, 5000);
 }

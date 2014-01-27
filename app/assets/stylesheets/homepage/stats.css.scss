@@ -1,37 +1,51 @@
-.slideshow {
+.slideshow
+{
 	height: 600px;
   margin-top: 50px;
   position: relative;
 }
 
-#slide1 {
+.slideshow .slides h1
+{
+	position: absolute;
+	bottom: 80px;
+	right: 100px;
+	font-size: 30px;
+}
+
+#slide1
+{
 	background: url(image-path("1_slide.jpg")) no-repeat center center;
   background-size: 1270px 600px;
   background-position: center top;
 }
 
-#slide2 {
+#slide2
+{
 	background: url(image_path("2_slide.jpg")) no-repeat center center;
 	background-size: 1270px 600px;
   background-position: center top;
 
 }
 
-#slide3 {
+#slide3
+{
 	background: url(image_path("3_slide.jpg")) no-repeat center center;
 	background-size: 1270px 600px;
   background-position: center top;
 
 }
 
-#slide4 {
+#slide4
+{
 	background: url(image_path("4_slide.jpg")) no-repeat center center;
 	background-size: 1270px 600px;
   background-position: center top;
   
 }
 
-.slideshow .slides {
+.slideshow .slides
+{
 	color: rgb(0,0,0);
 	height: 100%;
   width: 100%;
@@ -40,14 +54,8 @@
   overflow-y: auto;
 }
 
-.slideshow .slides h1 {
-	position: absolute;
-	top: 40px;
-	left: 200px;
-	font-size: 30px;
-}
-
-.slideshow .slides li {
+.slideshow .slides li
+{
 	position: absolute;
 	height: 100%;
   width: 100%;
@@ -57,15 +65,18 @@
 	display: block;
 }
 
-.slideshow .slides .active {
+.slideshow .slides .active
+{
 	z-index: 10;
 }
 
-.slideshow .slides .last-active {
+.slideshow .slides .last-active
+{
 	z-index: 9;
 }
 
-.slideshow .slide-pagination {
+.slideshow .slide-pagination
+{
 	position: absolute;
 	bottom: 20px;
 	z-index: 999;
@@ -76,7 +87,8 @@
 	text-align: center;
 }
 
-.slideshow .slide-pagination div {
+.slideshow .slide-pagination div
+{
 	display: inline-block;
 	width: 10px;
 	height: 10px;
@@ -85,7 +97,8 @@
 	margin: 3px;
 }
 
-.slideshow .slide-pagination div.active {
+.slideshow .slide-pagination div.active
+{
 	background-color: #00afd8;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
 	filter: alpha(opacity=90);
