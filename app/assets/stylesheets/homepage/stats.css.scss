@@ -113,5 +113,23 @@
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px) {
+  
+  .slideshow
+  {
+    height: 400px;
+  }
+  
+  .slideshow .slide-arrows
+  {
+    display: none;
+  }
+  
+  .slideshow .slides h1
+  {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 20px;
+  }
     
 }
