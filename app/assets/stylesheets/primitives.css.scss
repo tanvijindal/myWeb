@@ -1,15 +1,10 @@
-$body_background: #E6E6E6;
+$body_background: #ffffff;
 
 $primary_font:   "Helvetica Neue";
 $secondary_font: "Helvetica";
 $tertiary_font:  "Arial";
 
 /* For modern browsers */
-
-html
-{
-  overflow: visible;
-}
 
 .container
 {
@@ -20,6 +15,19 @@ html
   overflow: visible;
 }
 
+::selection
+{
+  background: #00afd8;
+  color: #ffffff;
+}
+
+::-moz-selection
+{
+  background: #00afd8;
+  color: #ffffff;
+}
+
+
 .wrapper {
   width: 74%;
   margin: 0% 13%;
@@ -28,6 +36,7 @@ html
 .pulldown
 {
   padding-top: 5em;
+  padding-top: 50px;
 }
 
 .clearfix:before,
