@@ -8,6 +8,7 @@ class UserMailer < ActionMailer::Base
 		 :subject => 'Pikmoments: Capture beautiful moments automatically'
   end
   
+  
   def signup_mail(user)
 	@user = user
 	begin
