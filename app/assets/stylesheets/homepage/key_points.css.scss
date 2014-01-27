@@ -80,18 +80,119 @@
   margin-left: 4%;
 }
 
-#four_outer {
-  background: url(image_path("4-background.png")) no-repeat top left;
-  height: 393px;
+#crystal_clear_outer {
+  background: none;
+  height: 400px;
+}
+
+#crystal_clear {
+  background: none;
+  height: 400px;
+  background-size: 100%;
+}
+
+#crystal_clear .key_point
+{
+  margin-top: 70px;
+  margin-left: 4%;
 }
 
 .right {
   float: right;
 }
 
-
+/* iphone */
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
- 
+  .key_point
+  {
+    display: block;
+    width: 100%;
+  }
+  .key_point_image
+  {
+    display: hidden;
+  }
+  
+  .key_point h1 {
+    color: rgb(0,175,216);
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  #photographer_outer {
+    background: none;
+    height: 200px;
+  }
+  
+  #photographer{
+    background: none;
+    background-size: 100%;
+    height: 200px;
+  }
+  
+  #photographer .key_point
+  {
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  
+  #smiles_outer {
+    background: none;
+    height: 200px;
+  }
+  
+  #smiles {
+    background: none;
+    height: 200px;
+    background-size: 100%;
+  }
+  
+  #smiles .key_point
+  {
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  
+  #phone_outer {
+    background: none;
+    height: 200px;
+  }
+  
+  #phone {
+    background: none;
+    height: 200px;
+    background-size: 100%;
+  }
+  
+  #phone .key_point
+  {
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  
+  #crystal_clear_outer {
+    background: none;
+    height: 200px;
+  }
+  
+  #crystal_clear {
+    background: none;
+    height: 200px;
+    background-size: 100%;
+  }
+  
+  #crystal_clear .key_point
+  {
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  
+  .key_point p {
+    line-height: 1.1;
+    letter-spacing: 0.1px;
+    font-size: 14px;
+  }
+
 }
 
 /* ipad */

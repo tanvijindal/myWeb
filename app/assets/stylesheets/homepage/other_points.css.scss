@@ -4,7 +4,6 @@
   text-align: center;
   border-top: 10px solid white;
   border-bottom: 10px solid white;
-
 }
 
 #other_points p{
@@ -31,16 +30,52 @@
 #section-1
 {
   float: left;
-  background: url(asset-path("", "images")) no-repeat center top;
 }
 
 #section-2
 {
-  background: url(asset-path("", "images")) no-repeat center top;
   float: left;
 }
 
 /* Smartphone */
 @media screen and (min-device-width : 320px) and (max-device-width : 480px) and (min-width : 320px) and (max-width : 480px)
 {
+  .other_points_container
+  {
+    background-color: #F0F0F0;
+    text-align: center;
+    border-top: 10px solid white;
+  }
+  #section-1
+  {
+    float: none;
+  }
+  
+  #section-2
+  {
+    float: none;
+  }
+  #other_points li
+  {
+    list-style-type: none;
+    display: block;
+    line-height: 1.25;
+    margin: 0;
+    padding: 20px 0px;
+    border-bottom: 5px solid white;
+    width: 100%;
+  }
+  #other_points p{
+    text-align: justify;
+    padding: 0;
+    font-size: 1.3em;
+    font-size: 13px;
+  }
+  
+  #other_points h2
+  {
+    padding: 0;
+    font-size: 1.5em;
+    font-size: 15px;
+  }
 }

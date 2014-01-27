@@ -1,39 +1,36 @@
 <div class="footer container">
   <div class="wrapper clearfix">
-
-	<div class="footer-left">
-	  <div class="website-links-container">
-		<ul class="website-links">
-      <li>
-        <%= link_to 'FAQ', '/faq' %>
-      </li>
-      <li>
-        <%= link_to 'PRIVACY', '/privacy' %>
-      </li>
-		  <li>
-			<%= link_to 'ABOUT US', '/about' %>
-		  </li>
-      <li>
-        <%= link_to 'CONTACT US', '/contact' %>
-      </li>
-		</ul>
-	  </div>
-	  <div class="copyright-container">
-		<h5>
-		© 2013 CuriousAnt Inc. All rights reserved. Patent pending.
-		</h5>
-	  </div>
-	</div>
-
-	<div class="footer-right">
-	  <div class="footer-subscribe-container">
-	  <%= render '/homepage/subscribe' %>
-	  </div>
-    <div class="footer-social-container">
-      <%= render '/follow' %>
+    <div class="footer-right">
+      <div class="footer-subscribe-container">
+        <%= render '/homepage/subscribe' %>
+      </div>
+      <div class="footer-social-container">
+        <%= render '/follow' %>
+      </div>
     </div>
-	</div>
-
+    <div class="footer-left">
+      <div class="website-links-container">
+      <ul class="website-links">
+        <li>
+          <%= link_to 'FAQ', '/faq' %>
+        </li>
+        <li>
+          <%= link_to 'PRIVACY', '/privacy' %>
+        </li>
+        <li>
+        <%= link_to 'ABOUT US', '/about' %>
+        </li>
+        <li>
+          <%= link_to 'CONTACT US', '/contact' %>
+        </li>
+      </ul>
+      </div>
+      <div class="copyright-container">
+      <h5>
+      © 2014 CuriousAnt Inc. All rights reserved. Patent pending.
+      </h5>
+      </div>
+    </div>
   </div>
 </div>
 <%= render '/google_analytics' %>

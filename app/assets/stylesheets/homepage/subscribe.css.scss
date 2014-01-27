@@ -57,3 +57,30 @@
   display: inline;
 }
 
+/* Smartphone */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px)
+{
+  .header .subscribe_form_container
+  {
+    display: none;
+  }
+  
+  .header #subscribe_email_form
+  {
+    display: none;
+  }
+
+  .footer .subscribe_form_container
+  {
+    height: 40px;
+    z-index: 500;
+    width: 100%;
+    display: block;
+    background: #000000;
+  }
+  
+  
+}
+
