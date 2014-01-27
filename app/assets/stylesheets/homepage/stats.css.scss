@@ -8,9 +8,11 @@
 .slideshow .slides h1
 {
 	position: absolute;
+  text-align: center;
 	bottom: 80px;
-	right: 100px;
+	right: 20px;
 	font-size: 30px;
+  width: 45%;
 }
 
 #slide1
@@ -42,6 +44,11 @@
 	background-size: 1270px 600px;
   background-position: center top;
   
+}
+
+#slide1 h1, #slide4 h1
+{
+  color: #ffffff;
 }
 
 .slideshow .slides
@@ -145,6 +152,7 @@
   .slideshow
   {
     height: 400px;
+    margin-top: 40px;
   }
   
   .slideshow .slide-arrows
@@ -155,9 +163,46 @@
   .slideshow .slides h1
   {
     position: absolute;
-    top: 20px;
-    left: 10px;
-    font-size: 20px;
+    bottom: 50px;
+    left: 5px;
+    font-size: 28px;
+    width: 100%;
+  }
+  
+  #slide1 h1, #slide2 h1, #slide3 h1, #slide4 h1
+  {
+    color: #000000;
+  }
+  
+  #slide1
+  {
+    background: url(image-path("1_slide_mobile.jpg")) no-repeat center center;
+    background-size: 320px 400px;
+    background-position: center top;
+  }
+  
+  #slide2
+  {
+    background: url(image_path("1_slide_mobile.jpg")) no-repeat center center;
+    background-size: 320px 400px;
+    background-position: center top;
+    
+  }
+  
+  #slide3
+  {
+    background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
+    background-size: 320px 400px;
+    background-position: center top;
+    
+  }
+  
+  #slide4
+  {
+    background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
+    background-size: 320px 400px;
+    background-position: center top;
+    
   }
     
 }
