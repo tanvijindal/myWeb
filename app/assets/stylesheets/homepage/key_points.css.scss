@@ -1,6 +1,5 @@
 .big_wrapper {
   display: block;	
-  border-top: 10px solid white;
   background: #fff;
 }
 
@@ -29,15 +28,16 @@
   letter-spacing: 0.5px;
 }
 
-#photographer_outer {
-  background: #E6E6E6;
+#photographer_outer 
+{
   background: url(image_path("keypointImages/personalPhotographer.jpg")) no-repeat center center;
   background-size: 1270px 400px;
   background-position: center top;
   height: 400px;
 }
 
-#photographer{
+#photographer
+{
   height: 400px;
 }
 
@@ -47,34 +47,17 @@
   margin-left: 4%;
 }
 
-#smiles_outer {
-  background: #E6E6E6;
-  height: 400px;
-}
-
-#smiles {
-  background: url(image_path("keyPoint_smiles.png")) no-repeat center center;
-  background-size: 945px 400px;
-  background-position: center top;
-  height: 400px;
-}
-
-#smiles .key_point
+#phone_outer 
 {
-  margin-top: 70px;
-  margin-left: 51%;
-}
-
-#phone_outer {
-  background: #E6E6E6;
-  height: 400px;
-}
-
-#phone {
-  height: 400px;
   background: url(image_path("keyPoint_phone.png")) no-repeat center center;
-  background-size: 945px 400px;
+  background-size: 12705px 400px;
   background-position: center top;
+  height: 400px;
+}
+
+#phone 
+{
+  height: 400px;
 }
 
 #phone .key_point
@@ -83,17 +66,17 @@
   margin-left: 4%;
 }
 
-#crystal_clear_outer {
-  background: #E6E6E6;
-  height: 400px;
-}
-
-#crystal_clear {
-  background: url(image_path("keyPoint_smiles.png")) no-repeat center center;
+#crystal_clear_outer
+{
+  background: url(image_path("keyPoint_portable.png")) no-repeat center center;
   background-size: 1270px 400px;
   background-position: center top;
   height: 400px;
-  background-size: 100%;
+}
+
+#crystal_clear
+{
+  height: 400px;
 }
 
 #crystal_clear .key_point
@@ -102,8 +85,64 @@
   margin-left: 51%;
 }
 
-.right {
-  float: right;
+#portable_outer
+{
+  height: 400px;
+  background: url(image_path("keyPoint_portable.png")) no-repeat center center;
+  background-size: 945px 400px;
+  background-position: center top;
+}
+
+#portable
+{
+  
+  height: 400px;
+}
+
+#portable .key_point
+{
+  margin-top: 70px;
+  margin-left: 51%;
+}
+
+#wireless_outer
+{
+  height: 400px;
+  background: url(image_path("keyPoint_wireless.png")) no-repeat center center;
+  background-size: 945px 400px;
+  background-position: center top;
+}
+
+#wireless
+{
+  
+  height: 400px;
+}
+
+#wireless .key_point
+{
+  margin-top: 70px;
+  margin-left: 51%;
+}
+
+#secure_outer
+{
+  background: url(image_path("keyPoint_secure.png")) no-repeat center center;
+  background-size: 945px 400px;
+  background-position: center top;
+  height: 400px;
+}
+
+#secure
+{
+  
+  height: 400px;
+}
+
+#secure .key_point
+{
+  margin-top: 70px;
+  margin-left: 51%;
 }
 
 /* iphone */
@@ -130,12 +169,14 @@
     text-align: center;
   }
 
-  #photographer_outer {
+  #photographer_outer
+  {
     background: none;
     height: 400px;
   }
   
-  #photographer{
+  #photographer
+  {
     background: none;
     height: 200px;
   }
@@ -154,36 +195,14 @@
     height: 200px;
   }
   
-  #smiles_outer {
+  #phone_outer
+  {
     background: none;
     height: 400px;
   }
   
-  #smiles {
-    background: none;
-    height: 200px;
-  }
-  
-  #smiles .key_point
+  #phone
   {
-    margin-top: 30px;
-    margin-left: 4%;
-  }
-  
-  #smiles .key_point_image
-  {
-    padding-top: 20px;
-    height: auto;
-    background: url(image_path("keyPoint_smiles_mobile.png")) no-repeat center top;
-    height: 200px;
-  }
-  
-  #phone_outer {
-    background: none;
-    height: 400px;
-  }
-  
-  #phone {
     background: none;
     height: 200px;
   }
@@ -202,12 +221,14 @@
     height: 200px;
   }
   
-  #crystal_clear_outer {
+  #crystal_clear_outer
+  {
     background: none;
     height: 400px;
   }
   
-  #crystal_clear {
+  #crystal_clear
+  {
     background: none;
     height: 200px;
     background-size: 100%;
@@ -223,10 +244,89 @@
   {
     padding-top: 20px;
     height: auto;
-    background: url(image_path("keyPoint_phone_mobile.png")) no-repeat center top;
+    background: url(image_path("keyPoint_crystal_clear_mobile.png")) no-repeat center top;
     height: 200px;
   }
   
+  #portable_outer
+  {
+    background: none;
+    height: 400px;
+  }
+  
+  #portable
+  {
+    background: none;
+    height: 200px;
+  }
+  
+  #portable .key_point
+  {
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  
+  #portable .key_point_image
+  {
+    padding-top: 20px;
+    height: auto;
+    background: url(image_path("keyPoint_portable_mobile.png")) no-repeat center top;
+    height: 200px;
+  }
+  
+  #wireless_outer
+  {
+    background: none;
+    height: 400px;
+  }
+  
+  #wireless
+  {
+    background: none;
+    height: 200px;
+    background-size: 100%;
+  }
+  
+  #wireless .key_point
+  {
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  
+  #wireless .key_point_image
+  {
+    padding-top: 20px;
+    height: auto;
+    background: url(image_path("keyPoint_wireless_mobile.png")) no-repeat center top;
+    height: 200px;
+  }
+  
+  #secure_outer
+  {
+    background: none;
+    height: 400px;
+  }
+  
+  #secure
+  {
+    background: none;
+    height: 200px;
+    background-size: 100%;
+  }
+  
+  #secure .key_point
+  {
+    margin-top: 30px;
+    margin-left: 4%;
+  }
+  
+  #secure .key_point_image
+  {
+    padding-top: 20px;
+    height: auto;
+    background: url(image_path("keyPoint_secure_mobile.png")) no-repeat center top;
+    height: 200px;
+  }
 
 }
 
