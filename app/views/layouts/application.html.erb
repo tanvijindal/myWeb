@@ -17,8 +17,10 @@
   </head>
   <!--[if lt IE 9 ]><body class="lt-ie9"><![endif]-->
   <!--[if (gt IE 9)|!(IE)]><!--> <body><!--<![endif]-->
-    <%= render '/header' %>
-    <%= yield %>
-    <%= render '/footer' %>
+    <div class="container">
+      <%= render '/header' %>
+      <%= yield %>
+      <%= render '/footer' %>
+    </div>
   </body>
 </html>

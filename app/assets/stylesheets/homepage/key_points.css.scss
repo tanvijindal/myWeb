@@ -30,13 +30,14 @@
 }
 
 #photographer_outer {
-  background: url(image_path("fresh_snow.png")) repeat top left;
+  background: #E6E6E6;
   height: 400px;
 }
 
 #photographer{
-  background: url(image_path("keyPoint_photographer.png")) no-repeat top left;
-  background-size: 100%;
+  background: url(image_path("keyPoint_photographer.png")) no-repeat center center;
+  background-size: 945px 400px;
+  background-position: center top;
   height: 400px;
 }
 
@@ -47,14 +48,15 @@
 }
 
 #smiles_outer {
-  background: url(image_path("sandpaper.png")) repeat top left;
+  background: #E6E6E6;
   height: 400px;
 }
 
 #smiles {
-  background: url(image_path("keyPoint_smiles.png")) no-repeat top left;
+  background: url(image_path("keyPoint_smiles.png")) no-repeat center center;
+  background-size: 945px 400px;
+  background-position: center top;
   height: 400px;
-  background-size: 100%;
 }
 
 #smiles .key_point
@@ -64,14 +66,15 @@
 }
 
 #phone_outer {
-  background: url(image_path("grunge_wall.png")) repeat top left;
+  background: #E6E6E6;
   height: 400px;
 }
 
 #phone {
-  background: url(image_path("keyPoint_phone.png")) no-repeat bottom left;
   height: 400px;
-  background-size: 100%;
+  background: url(image_path("keyPoint_phone.png")) no-repeat center center;
+  background-size: 945px 400px;
+  background-position: center top;
 }
 
 #phone .key_point
@@ -81,12 +84,14 @@
 }
 
 #crystal_clear_outer {
-  background: none;
+  background: #E6E6E6;
   height: 400px;
 }
 
 #crystal_clear {
-  background: none;
+  background: url(image_path("keyPoint_smiles.png")) no-repeat center center;
+  background-size: 1270px 400px;
+  background-position: center top;
   height: 400px;
   background-size: 100%;
 }
@@ -94,7 +99,7 @@
 #crystal_clear .key_point
 {
   margin-top: 70px;
-  margin-left: 4%;
+  margin-left: 51%;
 }
 
 .right {
@@ -102,7 +107,7 @@
 }
 
 /* iphone */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
   .key_point
   {
     display: block;
