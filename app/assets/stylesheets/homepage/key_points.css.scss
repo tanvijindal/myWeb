@@ -31,13 +31,13 @@
 
 #photographer_outer {
   background: #E6E6E6;
+  background: url(image_path("keypointImages/personalPhotographer.jpg")) no-repeat center center;
+  background-size: 1270px 400px;
+  background-position: center top;
   height: 400px;
 }
 
 #photographer{
-  background: url(image_path("keyPoint_photographer.png")) no-repeat center center;
-  background-size: 945px 400px;
-  background-position: center top;
   height: 400px;
 }
 
