@@ -35,7 +35,7 @@
 }
 
 #photographer{
-  background: url(image_path("keyPoint1.png")) no-repeat top left;
+  background: url(image_path("keyPoint_photographer.png")) no-repeat top left;
   background-size: 100%;
   height: 400px;
 }
@@ -52,7 +52,7 @@
 }
 
 #smiles {
-  background: url(image_path("keyPoint2.png")) no-repeat top left;
+  background: url(image_path("keyPoint_smiles.png")) no-repeat top left;
   height: 400px;
   background-size: 100%;
 }
@@ -69,7 +69,7 @@
 }
 
 #phone {
-  background: url(image_path("keyPoint3.png")) no-repeat bottom left;
+  background: url(image_path("keyPoint_phone.png")) no-repeat bottom left;
   height: 400px;
   background-size: 100%;
 }
@@ -108,25 +108,30 @@
     display: block;
     width: 100%;
   }
-  .key_point_image
-  {
-    display: hidden;
-  }
   
   .key_point h1 {
     color: rgb(0,175,216);
     width: 100%;
-    font-size: 16px;
+    font-size: 19px;
+    line-height: 1.25;
+    text-align: center;
   }
   
+  .key_point p {
+    line-height: 1.25;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    padding-top: 5px;
+    text-align: center;
+  }
+
   #photographer_outer {
     background: none;
-    height: 200px;
+    height: 400px;
   }
   
   #photographer{
     background: none;
-    background-size: 100%;
     height: 200px;
   }
   
@@ -136,15 +141,22 @@
     margin-left: 4%;
   }
   
+  #photographer .key_point_image
+  {
+    padding-top: 20px;
+    height: auto;
+    background: url(image_path("keyPoint_photographer_mobile.png")) no-repeat center top;
+    height: 200px;
+  }
+  
   #smiles_outer {
     background: none;
-    height: 200px;
+    height: 400px;
   }
   
   #smiles {
     background: none;
     height: 200px;
-    background-size: 100%;
   }
   
   #smiles .key_point
@@ -153,15 +165,22 @@
     margin-left: 4%;
   }
   
+  #smiles .key_point_image
+  {
+    padding-top: 20px;
+    height: auto;
+    background: url(image_path("keyPoint_smiles_mobile.png")) no-repeat center top;
+    height: 200px;
+  }
+  
   #phone_outer {
     background: none;
-    height: 200px;
+    height: 400px;
   }
   
   #phone {
     background: none;
     height: 200px;
-    background-size: 100%;
   }
   
   #phone .key_point
@@ -170,9 +189,17 @@
     margin-left: 4%;
   }
   
+  #phone .key_point_image
+  {
+    padding-top: 20px;
+    height: auto;
+    background: url(image_path("keyPoint_phone_mobile.png")) no-repeat center top;
+    height: 200px;
+  }
+  
   #crystal_clear_outer {
     background: none;
-    height: 200px;
+    height: 400px;
   }
   
   #crystal_clear {
@@ -187,11 +214,14 @@
     margin-left: 4%;
   }
   
-  .key_point p {
-    line-height: 1.1;
-    letter-spacing: 0.1px;
-    font-size: 14px;
+  #crystal_clear .key_point_image
+  {
+    padding-top: 20px;
+    height: auto;
+    background: url(image_path("keyPoint_phone_mobile.png")) no-repeat center top;
+    height: 200px;
   }
+  
 
 }
 
