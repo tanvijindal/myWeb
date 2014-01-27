@@ -8,6 +8,7 @@
 
 #about-content p
 {
+  font-size: 1.6em;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -67,3 +68,39 @@ ul
   border-radius: 100px;
 }
 
+/* iphone */
+@media only screen and (min-width : 320px) and (max-width : 480px)
+{
+  #about-content
+  {
+	text-align: center;
+  }
+  #about-content .about_founders p
+  {
+	font-size: 1.4em;
+	font-size: 14px;
+	line-height: 1.2;
+  }
+  .team_heading
+  {
+	font-size: 3.0em;
+	font-size: 30px;
+	line-height: 1.5;
+  }
+  
+  #about-content .about_founders h4
+  {
+	font-size: 2.0em;
+	font-size: 20px;
+	line-height: 1.4;
+  }
+  
+  .about_founders .team li
+  {
+	display: block;
+	margin: 10px 0px;
+  }
+
+
+
+}
