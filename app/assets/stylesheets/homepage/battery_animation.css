@@ -60,4 +60,11 @@
   {
     display: none;
   }
+  .hours_animation
+  {
+    float:none;
+    margin-left:30%;
+    margin-right:30%;
+    margin-top: -20%;
+  }
 }
