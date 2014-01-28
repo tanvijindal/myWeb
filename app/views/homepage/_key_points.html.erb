@@ -43,24 +43,22 @@
   </div>
 </section>
 <section class="big_wrapper" id="portable_outer">
+  <div class="battery_animation">
+    <%= image_tag("green.png", :id =>"full") %>
+  </div>
   <div class="wrapper" id="portable">
-
     <div class="key_point">
       <h1>
-        Super portable. Up to 20hours battery life.
+        Super portable. Up to 20 hours battery life.
       </h1>
-
       <p>
-        Hang it on the wall, or keep it on the desk. The device is amazingly portable, with a 20hr battery life. So, just charge it once before going to sleep.
+        Hang it on the wall, or keep it on the desk. The device is amazingly portable, with a 20hrs battery life. So, just charge it once before going to sleep.
       </p>
     </div>
     <div class="key_point_image">
-      <div class="battery_animation">
-        <%= image_tag("battery_empty.png", :id =>"empty") %>
-        <%= image_tag("battery_filling.jpg", :id =>"full") %>
-      </div>
       <div class="hours_animation">
-        <span id="battery_hours"><h1>1</h1></span>
+        <div id="battery_hours">1</div>
+        <div id="battery_hours_label">Hrs</div>
       </div>
 
     </div>
