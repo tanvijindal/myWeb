@@ -31,14 +31,14 @@
 #photographer_outer 
 {
   background: url(image_path("keypointImages/personalPhotographer.jpg")) no-repeat center center;
-  background-size: 1270px 400px;
+  background-size: 1270px 500px;
   background-position: center top;
-  height: 400px;
+  height: 500px;
 }
 
 #photographer
 {
-  height: 400px;
+  height: 500px;
 }
 
 #photographer .key_point
@@ -49,15 +49,15 @@
 
 #phone_outer 
 {
-  background: url(image_path("keyPoint_phone.png")) no-repeat center center;
-  background-size: 12705px 400px;
+  background: url(image_path("keypointImages/phoneAndSocial.jpg")) no-repeat center center;
+  background-size: 1270px 600px;
   background-position: center top;
-  height: 400px;
+  height: 600px;
 }
 
 #phone 
 {
-  height: 400px;
+  height: 600px;
 }
 
 #phone .key_point
@@ -68,15 +68,15 @@
 
 #crystal_clear_outer
 {
-  background: url(image_path("keyPoint_portable.png")) no-repeat center center;
-  background-size: 1270px 400px;
+  background: url(image_path("keypointImages/cameraAndFishEye.jpg")) no-repeat center center;
+  background-size: 1270px 500px;
   background-position: center top;
-  height: 400px;
+  height: 500px;
 }
 
 #crystal_clear
 {
-  height: 400px;
+  height: 500px;
 }
 
 #crystal_clear .key_point
@@ -87,16 +87,16 @@
 
 #portable_outer
 {
-  height: 400px;
+  height: 500px;
   background: url(image_path("keyPoint_portable.png")) no-repeat center center;
-  background-size: 945px 400px;
+  background-size: 945px 500px;
   background-position: center top;
 }
 
 #portable
 {
   
-  height: 400px;
+  height: 500px;
 }
 
 #portable .key_point
@@ -107,16 +107,16 @@
 
 #wireless_outer
 {
-  height: 400px;
+  height: 500px;
   background: url(image_path("keyPoint_wireless.png")) no-repeat center center;
-  background-size: 945px 400px;
+  background-size: 945px 500px;
   background-position: center top;
 }
 
 #wireless
 {
   
-  height: 400px;
+  height: 500px;
 }
 
 #wireless .key_point
@@ -128,15 +128,15 @@
 #secure_outer
 {
   background: url(image_path("keyPoint_secure.png")) no-repeat center center;
-  background-size: 945px 400px;
+  background-size: 945px 500px;
   background-position: center top;
-  height: 400px;
+  height: 500px;
 }
 
 #secure
 {
   
-  height: 400px;
+  height: 500px;
 }
 
 #secure .key_point
@@ -172,13 +172,13 @@
   #photographer_outer
   {
     background: none;
-    height: 400px;
+    height: 500px;
   }
   
   #photographer
   {
     background: none;
-    height: 200px;
+    height: 250px;
   }
   
   #photographer .key_point
@@ -192,19 +192,19 @@
     padding-top: 20px;
     height: auto;
     background: url(image_path("keyPoint_photographer_mobile.png")) no-repeat center top;
-    height: 200px;
+    height: 250px;
   }
   
   #phone_outer
   {
     background: none;
-    height: 400px;
+    height: 500px;
   }
   
   #phone
   {
     background: none;
-    height: 200px;
+    height: 250px;
   }
   
   #phone .key_point
@@ -218,19 +218,19 @@
     padding-top: 20px;
     height: auto;
     background: url(image_path("keyPoint_phone_mobile.png")) no-repeat center top;
-    height: 200px;
+    height: 250px;
   }
   
   #crystal_clear_outer
   {
     background: none;
-    height: 400px;
+    height: 500px;
   }
   
   #crystal_clear
   {
     background: none;
-    height: 200px;
+    height: 250px;
     background-size: 100%;
   }
   
@@ -245,19 +245,19 @@
     padding-top: 20px;
     height: auto;
     background: url(image_path("keyPoint_crystal_clear_mobile.png")) no-repeat center top;
-    height: 200px;
+    height: 250px;
   }
   
   #portable_outer
   {
     background: none;
-    height: 400px;
+    height: 500px;
   }
   
   #portable
   {
     background: none;
-    height: 200px;
+    height: 250px;
   }
   
   #portable .key_point
@@ -271,19 +271,19 @@
     padding-top: 20px;
     height: auto;
     background: url(image_path("keyPoint_portable_mobile.png")) no-repeat center top;
-    height: 200px;
+    height: 250px;
   }
   
   #wireless_outer
   {
     background: none;
-    height: 400px;
+    height: 500px;
   }
   
   #wireless
   {
     background: none;
-    height: 200px;
+    height: 250px;
     background-size: 100%;
   }
   
@@ -298,19 +298,19 @@
     padding-top: 20px;
     height: auto;
     background: url(image_path("keyPoint_wireless_mobile.png")) no-repeat center top;
-    height: 200px;
+    height: 250px;
   }
   
   #secure_outer
   {
     background: none;
-    height: 400px;
+    height: 500px;
   }
   
   #secure
   {
     background: none;
-    height: 200px;
+    height: 250px;
     background-size: 100%;
   }
   
@@ -325,7 +325,7 @@
     padding-top: 20px;
     height: auto;
     background: url(image_path("keyPoint_secure_mobile.png")) no-repeat center top;
-    height: 200px;
+    height: 250px;
   }
 
 }
