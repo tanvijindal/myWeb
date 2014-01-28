@@ -126,8 +126,9 @@
 
 .slideshow .slide-arrows .arrow-left
 {
-  background: url(image_path("left_arrow.png")) no-repeat;
+  background: url(image_path("left_arrow.png")) no-repeat center center;
   background-size: 40px 40px;
+  background-position: center top;
   width: 40px;
   height:40px;
   margin: 0px 20px;
@@ -136,8 +137,9 @@
 
 .slideshow .slide-arrows .arrow-right
 {
-  background: url(image_path("right_arrow.png")) no-repeat;
+  background: url(image_path("right_arrow.png")) no-repeat center center;
   background-size: 40px 40px;
+  background-position: center top;
   width: 40px;
   height:40px;
   margin: 0px 20px;
@@ -177,14 +179,14 @@
   #slide1
   {
     background: url(image-path("1_slide_mobile.jpg")) no-repeat center center;
-    background-size: 320px 400px;
+    background-size: 480px 400px;
     background-position: center top;
   }
   
   #slide2
   {
     background: url(image_path("1_slide_mobile.jpg")) no-repeat center center;
-    background-size: 320px 400px;
+    background-size: 480px 400px;
     background-position: center top;
     
   }
@@ -192,7 +194,7 @@
   #slide3
   {
     background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
-    background-size: 320px 400px;
+    background-size: 480px 400px;
     background-position: center top;
     
   }
@@ -200,9 +202,96 @@
   #slide4
   {
     background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
-    background-size: 320px 400px;
+    background-size: 480px 400px;
+    background-position: center top;
+  }
+}
+
+/* iphone landscape */
+@media screen and (min-width : 480px) and (max-width : 768px)
+{
+  .slideshow
+  {
+    height: 600px;
+    margin-top: 50px;
+  }
+  
+  .slideshow .slide-arrows
+  {
+    display: none;
+  }
+  
+  .slideshow .slides h1
+  {
+    position: absolute;
+    bottom: 50px;
+    left: 5px;
+    font-size: 28px;
+    width: 100%;
+  }
+  
+  #slide1 h1, #slide2 h1, #slide3 h1, #slide4 h1
+  {
+    color: #000000;
+  }
+  
+  #slide1
+  {
+    background: url(image-path("1_slide_mobile.jpg")) no-repeat center center;
+    background-size: 768px 600px;
+    background-position: center top;
+  }
+  
+  #slide2
+  {
+    background: url(image_path("1_slide_mobile.jpg")) no-repeat center center;
+    background-size: 768px 600px;
     background-position: center top;
     
   }
+  
+  #slide3
+  {
+    background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
+    background-size: 768px 600px;
+    background-position: center top;
     
+  }
+  
+  #slide4
+  {
+    background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
+    background-size: 768px 600px;
+    background-position: center top;
+  }
+  
+}
+
+/* ipad portrait */
+@media only screen and (min-width : 768px) and (max-width : 960px)
+{
+  .slideshow
+  {
+    height: 454px;
+  }
+  
+  #slide1, #slide2, #slide3, #slide4
+  {
+    background-size: 960px 454px;
+  }
+  
+}
+
+@media only screen and (min-width : 960px) and (max-width : 1024px)
+{
+  .slideshow
+  {
+    height: 484px;
+  }
+  
+  #slide1, #slide2, #slide3, #slide4
+  {
+    background-size: 1024px 484px;
+  }
+  
 }

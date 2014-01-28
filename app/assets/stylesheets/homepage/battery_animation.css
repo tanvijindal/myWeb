@@ -68,3 +68,26 @@
     margin-top: -20%;
   }
 }
+
+@media screen and (min-width : 480px) and (max-width : 768px)
+{
+  .battery_animation
+  {
+    display: none;
+  }
+  .hours_animation
+  {
+    float:none;
+    margin-left:40%;
+    margin-right:30%;
+    margin-top: 0%;
+  }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1270px)
+{
+  .battery_animation
+  {
+    display: none;
+  }
+}

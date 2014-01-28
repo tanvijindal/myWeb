@@ -16,15 +16,40 @@
   display: inline-block;
   border-radius: 50%;
   margin: 0px 5px;
+  height: 30px;
+  width: 30px;
+}
+
+.social #facebook_logo
+{
+  background: url(image_path("social/facebook_logo.jpg")) no-repeat center center;
+  background-size: 30px 30px;
+  background-position: center top;
+}
+
+.social #twitter_logo
+{
+  background: url(image_path("social/twitter_logo.jpg")) no-repeat center center;
+  background-size: 30px 30px;
+  background-position: center top;
+}
+
+.social #gplus_logo
+{
+  background: url(image_path("social/gplus_logo.jpg")) no-repeat center center;
+  background-size: 30px 30px;
+  background-position: center top;
+}
+
+.social #pinterest_logo
+{
+  background: url(image_path("social/pinterest_logo.jpg")) no-repeat center center;
+  background-size: 30px 30px;
+  background-position: center top;
 }
 
 @media only screen
 and (min-device-width : 320px)
 and (max-device-width : 480px)
 {
-  .social_logo
-  {
-    height: 25px;
-    width: 25px;
-  }
 }
