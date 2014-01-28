@@ -44,20 +44,25 @@
 </section>
 <section class="big_wrapper" id="portable_outer">
   <div class="wrapper" id="portable">
-    <div class="battery_animation">
-      <%= image_tag("battery_empty.png", :id =>"empty") %>
-      <%= image_tag("battery_filling.jpg", :id =>"full") %>
-    </div>
+
     <div class="key_point">
       <h1>
         Super portable. Up to 20hours battery life.
       </h1>
 
       <p>
-        With a 5MP pixel camera, get amazing quality pictures perfect for sharing over the web, printing out albums or just to zoom and see every smile on every face!
+        Hang it on the wall, or keep it on the desk. The device is amazingly portable, with a 20hr battery life. So, just charge it once before going to sleep.
       </p>
     </div>
     <div class="key_point_image">
+      <div class="battery_animation">
+        <%= image_tag("battery_empty.png", :id =>"empty") %>
+        <%= image_tag("battery_filling.jpg", :id =>"full") %>
+      </div>
+      <div class="hours_animation">
+        <span id="battery_hours"><h1>1</h1></span>
+      </div>
+
     </div>
   </div>
 </section>
@@ -65,7 +70,7 @@
   <div class="wrapper" id="wireless">
     <div class="key_point">
       <h1>
-        Wireless connectivity, uses 802.11 b/g/n networking
+        Wireless connectivity with cloud backup of moments
       </h1>
       <p>
         Using 802.11 b/g/n wireless networking, your device is always connected to the internet,so your photos are sent to you in real time through the cloud.
