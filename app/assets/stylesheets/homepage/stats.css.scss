@@ -1,6 +1,6 @@
 .slideshow
 {
-	height: 600px;
+  height: 600px;
   margin-top: 50px;
   position: relative;
 }
@@ -17,14 +17,14 @@
 
 #slide1
 {
-	background: url(image-path("1_slide.jpg")) no-repeat center center;
+	background: url(image-path("slideImages/1_slide.jpg")) no-repeat center center;
   background-size: 1270px 600px;
   background-position: center top;
 }
 
 #slide2
 {
-	background: url(image_path("2_slide.jpg")) no-repeat center center;
+	background: url(image_path("slideImages/2_slide.jpg")) no-repeat center center;
 	background-size: 1270px 600px;
   background-position: center top;
 
@@ -32,7 +32,7 @@
 
 #slide3
 {
-	background: url(image_path("3_slide.jpg")) no-repeat center center;
+	background: url(image_path("slideImages/3_slide.jpg")) no-repeat center center;
 	background-size: 1270px 600px;
   background-position: center top;
 
@@ -40,7 +40,7 @@
 
 #slide4
 {
-	background: url(image_path("4_slide.jpg")) no-repeat center center;
+	background: url(image_path("slideImages/4_slide.jpg")) no-repeat center center;
 	background-size: 1270px 600px;
   background-position: center top;
   
@@ -126,7 +126,7 @@
 
 .slideshow .slide-arrows .arrow-left
 {
-  background: url(image_path("left_arrow.png")) no-repeat;
+  background: url(image_path("slideImages/left_arrow.png")) no-repeat;
   background-size: 40px 40px;
   width: 40px;
   height:40px;
@@ -136,7 +136,7 @@
 
 .slideshow .slide-arrows .arrow-right
 {
-  background: url(image_path("right_arrow.png")) no-repeat;
+  background: url(image_path("slideImages/right_arrow.png")) no-repeat;
   background-size: 40px 40px;
   width: 40px;
   height:40px;
@@ -176,14 +176,14 @@
   
   #slide1
   {
-    background: url(image-path("1_slide_mobile.jpg")) no-repeat center center;
+    background: url(image-path("slideImages/1_slide_mobile.jpg")) no-repeat center center;
     background-size: 320px 400px;
     background-position: center top;
   }
   
   #slide2
   {
-    background: url(image_path("1_slide_mobile.jpg")) no-repeat center center;
+    background: url(image_path("slideImages/1_slide_mobile.jpg")) no-repeat center center;
     background-size: 320px 400px;
     background-position: center top;
     
@@ -191,7 +191,7 @@
   
   #slide3
   {
-    background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
+    background: url(image_path("slideImages/2_slide_mobile.jpg")) no-repeat center center;
     background-size: 320px 400px;
     background-position: center top;
     
@@ -199,7 +199,7 @@
   
   #slide4
   {
-    background: url(image_path("2_slide_mobile.jpg")) no-repeat center center;
+    background: url(image_path("slideImages/2_slide_mobile.jpg")) no-repeat center center;
     background-size: 320px 400px;
     background-position: center top;
     

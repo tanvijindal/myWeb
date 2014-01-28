@@ -16,10 +16,14 @@
 
 #contact_page .contact_form
 {
+  background: #e6e6e6;
   display:block;
   margin: 10px 0;
   font-size: 16px;
   line-height: 2;
+  padding-bottom:50px;
+  padding-left: 20px;
+  border-radius: 10px;
 }
 
 #contact_page .error_messages
@@ -46,4 +50,16 @@
   margin: 0 auto;
   font-size: 16px;
   background-color: #00afd8;
+}
+
+.text_field
+{
+  font-size: 16px;
+  padding: 3px 1%;
+  margin: 0 auto;
+  width: 68%;
+  outline: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  display: inline;
 }
