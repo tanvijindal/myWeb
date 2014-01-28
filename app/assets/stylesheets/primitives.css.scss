@@ -9,10 +9,13 @@ $tertiary_font:  "Arial";
 .container
 {
   width:100%;
-  max-width:1270px;
-  margin: 0;
+  max-width: 1270px;
+  margin: 0 auto;
   font-size: 62.5%;
   overflow: visible;
+  -moz-box-shadow:    1px 1px 5px 2px #acacac;
+  -webkit-box-shadow: 1px 1px 5px 2px #acacac;
+  box-shadow:         1px 1px 5px 2px #acacac;
 }
 
 ::selection
@@ -26,7 +29,6 @@ $tertiary_font:  "Arial";
   background: #00afd8;
   color: #ffffff;
 }
-
 
 .wrapper {
   width: 74%;

@@ -54,7 +54,6 @@ function right_arrow() {
 
 function left_arrow() {
   clearTimeout(timeout_var);
-  console.log("left arrow clicked")
   var active = $('.slideshow .slides li.active');
   var active_pagination_tab = $('.slideshow .slide-pagination div.active');
   if (active.length == 0) active = $('.slideshow .slides li:last');
@@ -80,7 +79,6 @@ $(function() {
   }
   left_arrow_image = $('.arrow-left');
   right_arrow_image = $('.arrow-right');
-  console.log(left_arrow_image);
   left_arrow_image.on('click', left_arrow);
   right_arrow_image.on('click', right_arrow);
   
