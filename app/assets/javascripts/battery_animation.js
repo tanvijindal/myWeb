@@ -26,7 +26,7 @@ function battery_animation() {
       }
   });
 
-    timeout = setTimeout(battery_animation, 50000);
+    timeout = setTimeout(battery_animation, 6000);
 }
 
 function commaSeparateNumber(val){
