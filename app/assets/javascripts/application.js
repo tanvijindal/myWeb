@@ -17,5 +17,6 @@
 //= require jquery.textchange
 //= require preorder
 //= require subscribe
+//= require battery_animation
 //= require slideshow
 //= require_tree .
