@@ -87,14 +87,13 @@
 #portable_outer
 {
   height: 500px;
-  background: url(image_path("keyPoint_portable.png")) no-repeat center center;
+  background: none;
   background-size: 945px 500px;
   background-position: center top;
 }
 
 #portable
 {
-  
   height: 500px;
 }
 
@@ -200,7 +199,7 @@
   {
     padding-top: 20px;
     height: auto;
-    background: url(image_path("keyPoint_photographer_mobile.png")) no-repeat center top;
+    background: url(image_path("keypointImages/photographerMobile.jpg")) no-repeat center top;
     height: 250px;
   }
   
