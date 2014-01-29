@@ -38,6 +38,5 @@ function commaSeparateNumber(val){
 
 $(document).ready(function() {
 	var full = document.getElementById('full');
-	full.style.display = "none";
   timeout = setTimeout(battery_animation, 10);
 });
