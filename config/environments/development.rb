@@ -47,4 +47,8 @@ Selfstarter::Application.configure do
     :authentication => :plain
   }
   
+  MandrillMailer.configure do |config|
+	config.api_key = "2vnYmqdclHxJYUw_X2FAGg"
+  end
+  
 end

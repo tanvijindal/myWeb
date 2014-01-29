@@ -44,5 +44,9 @@ Selfstarter::Application.configure do
 	:authentication => :plain,
 	:domain => "http://www.pikmoments.com"
   }
+  
+  MandrillMailer.configure do |config|
+	config.api_key = ENV['MANDRILL_APIKEY']
+  end
 
 end
