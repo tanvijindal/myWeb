@@ -26,7 +26,7 @@ function battery_animation() {
       }
   });
 
-    timeout = setTimeout(battery_animation, 50000);
+    timeout = setTimeout(battery_animation, 6000);
 }
 
 function commaSeparateNumber(val){
@@ -38,6 +38,5 @@ function commaSeparateNumber(val){
 
 $(document).ready(function() {
 	var full = document.getElementById('full');
-	full.style.display = "none";
   timeout = setTimeout(battery_animation, 10);
 });
