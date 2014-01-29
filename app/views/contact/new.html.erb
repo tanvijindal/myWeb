@@ -15,21 +15,21 @@
     <div class="contact_form">
       <div class="field">
         <%= f.label :name %><br />
-        <%= f.text_field :name, :class=>"text_field"%>
+        <%= f.text_field :name, :id=>"contact_text_field"%>
       </div>
       <div class="field">
         <span class="star">*</span>
         <%= f.label :email %><br />
-        <%= f.text_field :email, :class=>"text_field" %>
+        <%= f.text_field :email, :id=>"contact_text_field" %>
       </div>
       <div class="field">
         <%= f.label :subject %><br />
-        <%= f.text_field :subject, :class=>"text_field"%>
+        <%= f.text_field :subject, :id=>"contact_text_field"%>
       </div>
       <div class="field">
         <span class="star">*</span>
         <%= f.label :body, "Message" %><br />
-        <%= f.text_area :body, :rows => 5, :class=>"text_field"%>
+        <%= f.text_area :body, :rows => 5, :id=>"contact_text_field"%>
       </div>
       <div class="actions">
         <%= f.submit "Send Message", :class => "generic_button" %>

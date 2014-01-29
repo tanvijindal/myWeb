@@ -42,6 +42,30 @@
   display: inline;
 }
 
+/*
+.text_field::-webkit-input-placeholder {
+  color:#ffffff;
+  ;
+}
+
+.text_field:-moz-placeholder {
+  color: #ffffff;
+}
+
+.text_field::-moz-placeholder {
+  color: #ffffff;
+}
+
+.text_field:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+#subscribe_email_form input[type=text]
+{
+  color: #ffffff;
+}
+*/
+
 /* Smartphone */
 @media only screen and (min-width : 320px) and (max-width : 480px)
 {
