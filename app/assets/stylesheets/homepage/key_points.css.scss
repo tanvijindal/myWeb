@@ -47,16 +47,8 @@
   display: block;
   width: 80%;
   margin: 0px 10% 15px 10%;
-  color: #8a9298;
+  color: #555555;
   text-align: center;
-
-}
-
-#main_subscribe_form_container
-{
-  display: block;
-  width: 80%;
-  margin: 0px 10%;
 }
 
 #photographer_outer 
@@ -219,6 +211,31 @@
     font-size: 16px;
     padding-top: 5px;
     text-align: center;
+  }
+  
+  #subscribe_outer
+  {
+    height: 300px;
+  }
+  
+  #subscribe
+  {
+    height: 300px;
+    padding-top: 60px;
+  }
+
+  #subscribe .subscribe_call
+  {
+    display: block;
+    width: 96%;
+    margin: 0px 2% 15px 2%;
+    color: #555555;
+    text-align: center;
+  }
+  
+  #subscribe .subscribe_call h3
+  {
+    font-size: 20px;
   }
 
   #photographer_outer
