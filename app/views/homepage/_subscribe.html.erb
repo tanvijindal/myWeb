@@ -1,6 +1,6 @@
 <div>
 <%= form_tag 'homepage/subscribe', :class => "subscribe_email_form", :method => 'post', data: {remote: true} do %>
-	<%= email_field_tag "email", nil, :placeholder => "Enter email for early access.", :required => "required", :class=>"text_field"%>
+	<%= email_field_tag "email", nil, :placeholder => "Enter email for early access", :required => "required", :class=>"text_field"%>
 	<%= submit_tag Settings.call_to_action, :class => "subscribe_button" %>
   <% end %>
 </div>
