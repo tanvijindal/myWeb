@@ -9,12 +9,13 @@
 
 .footer-left
 {
-  float:left;
-  width:50%;
+  width:100%;
+  text-align:center;
 }
 
 .footer-right
 {
+  display: none;
   float:right;
   width:50%;
 }
@@ -49,13 +50,13 @@
 .website-links-container
 {
   display: block;
-  padding: 30px 10px 0px 20px;
+  padding: 20px 10px 0px 10px;
 }
 
 .copyright-container
 {
   display: block;
-  padding: 30px 10px 15px 20px;
+  padding: 20px 10px 15px 20px;
 }
 
 .copyright-container h5

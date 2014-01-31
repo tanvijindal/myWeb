@@ -30,6 +30,35 @@
   margin-bottom: 10px;
 }
 
+#subscribe_outer
+{
+  background: rgba(239, 242, 246, 0.8);
+  height: 400px;
+}
+
+#subscribe
+{
+  height: 400px;
+  padding-top: 130px;
+}
+
+#subscribe .subscribe_call
+{
+  display: block;
+  width: 80%;
+  margin: 0px 10% 15px 10%;
+  color: #8a9298;
+  text-align: center;
+
+}
+
+#main_subscribe_form_container
+{
+  display: block;
+  width: 80%;
+  margin: 0px 10%;
+}
+
 #photographer_outer 
 {
   background: url(image_path("keypointImages/photographer.jpg")) no-repeat center center;
