@@ -5,6 +5,6 @@ $(function() {
 								});
   $(".footer #subscribe_email_form").on("ajax:success", function()
 								{
-								$('input[name="email"]').val("Thanks for subscribing");
+  								$('input[name="email"]').val("Thanks for subscribing");
 								});
 });
