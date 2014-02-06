@@ -19,4 +19,5 @@
 //= require subscribe
 //= require battery_animation
 //= require slideshow
+//= requre vertical_navigation
 //= require_tree .
