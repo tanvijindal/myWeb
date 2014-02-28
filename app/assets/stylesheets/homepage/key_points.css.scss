@@ -1,754 +1,93 @@
-.big_wrapper {
-  display: block;	
-  background: #fff;
-}
-
-.key_point{
-  width: 49%;
-  font-weight: normal;
-  display: inline-block;
-}
-
-.key_point_image
+#projects
 {
-  display: none;
+    width: 100%;
+    position: relative;
+    display: block;
 }
 
-.key_point h1 {
-  color: rgb(0,175,216);
-  letter-spacing: 0.5px;
-  line-height: 1.25;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.key_point p {
-  font-size: 2em;
-  line-height: 1.25;
-  letter-spacing: 0.25px;
-  color: #8a9298;
-  margin-bottom: 10px;
-}
-
-#subscribe_outer
+.section-heading
 {
-  background: rgba(239, 242, 246, 0.8);
-  height: 400px;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #EC8D2D;
+    font-weight: bolder;
 }
 
-#subscribe
+.rows
 {
-  height: 400px;
-  padding-top: 130px;
+    width: 100%;
+    height: 250px;
+    display: block;
 }
 
-#subscribe .subscribe_call
+.bottom-margin
 {
-  display: block;
-  width: 80%;
-  margin: 0px 10% 15px 10%;
-  color: #555555;
-  text-align: center;
+    margin-bottom: 20px;
 }
 
-#photographer_outer 
+.col
 {
-  background: url(image_path("keypointImages/photographer.jpg")) no-repeat center center;
-  background-size: 1270px 500px;
-  background-position: center top;
-  height: 500px;
+    width: 32%;
+    margin-left: 2%;
+    margin-right: 0;
+    display: block;
+    float: left;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
 }
 
-#photographer
+.col:first-child
 {
-  height: 500px;
+    margin-left: 0;
 }
 
-#photographer .key_point
+.project-item
 {
-  margin-top: 90px;
-  margin-left: 10%;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    max-width: 300px;
+    height: auto;
+    width: 100%;
 }
 
-#phoneAndSocial_outer 
+#one, #two, #three
 {
-  background: url(image_path("keypointImages/phoneAndSocial.jpg")) no-repeat center center;
-  background-size: 1270px 500px;
-  background-position: center top;
-  height: 500px;
+    background: url(image_path("random.jpg")) no-repeat center center;
+    background-size: 300px 250px;
+    background-position: center top;
+    height: 250px;
 }
 
-#phoneAndSocial 
+.project-info
 {
-  height: 500px;
-}
-
-#phoneAndSocial .key_point
-{
-  margin-top: 90px;
-  margin-left: 4%;
-}
-
-#crystal_clear_outer
-{
-  background: url(image_path("keypointImages/crystal_clear.jpg")) no-repeat center center;
-  background-size: 1270px 500px;
-  background-position: center top;
-  height: 500px;
-}
-
-#crystal_clear
-{
-  height: 500px;
-}
-
-#crystal_clear .key_point
-{
-  margin-top: 90px;
-  margin-left: 10%;
-}
-
-#portable_outer
-{
-  height: 400px;
-  background: none;
-  background-size: 945px 500px;
-  background-position: center top;
-}
-
-#portable
-{
-  height: 400px;
-}
-
-#portable .key_point
-{
-  margin-top: 90px;
-  float: left;
-}
-
-#portable .key_point_image
-{
-  width: 45%;
-  display: block;
-  float: right;
-  margin-top: 100px;
-  margin-right: 4%;
-}
-
-
-#cloud_outer
-{
-  height: 500px;
-  background: url(image_path("keypointImages/cloud.jpg")) no-repeat center center;
-  background-size: 1270px 500px;
-  background-position: center top;
-}
-
-#cloud
-{
-  
-  height: 500px;
-}
-
-#cloud .key_point
-{
-  margin-top: 90px;
-  margin-left: 51%;
-}
-
-#secure_outer
-{
-  background: url(image_path("keypointImages/secure.jpg")) no-repeat center center;
-  background-size: 1270px 400px;
-  background-position: center top;
-  height: 400px;
-}
-
-#secure
-{
-  
-  height: 400px;
-}
-
-#secure .key_point
-{
-  margin-top: 90px;
-  margin-left: 10%;
+    background: rgba(220,110,0,0.8);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    vertical-align: baseline;
 }
 
 /* iphone */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-  .big_wrapper
-  {
-    border-bottom: 1px solid #acacac;
-  }
-  .key_point
-  {
-    display: block;
-    width: 100%;
-  }
-  .key_point_image
-  {
-    display: block;
-    height: 300px;
-  }
-  
-  .key_point h1 {
-    color: rgb(0,175,216);
-    width: 100%;
-    font-size: 2.2em;
-    font-size: 22px;
-    line-height: 1.25;
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  .key_point p {
-    line-height: 1.25;
-    letter-spacing: 0.1px;
-    font-size: 1.6em;
-    font-size: 16px;
-    padding-top: 5px;
-    text-align: center;
-  }
-  
-  #subscribe_outer
-  {
-    height: 300px;
-  }
-  
-  #subscribe
-  {
-    height: 300px;
-    padding-top: 60px;
-  }
-
-  #subscribe .subscribe_call
-  {
-    display: block;
-    width: 96%;
-    margin: 0px 2% 15px 2%;
-    color: #555555;
-    text-align: center;
-  }
-  
-  #subscribe .subscribe_call h3
-  {
-    font-size: 20px;
-  }
-
-  #photographer_outer
-  {
-    background: none;
-    height: 600px;
-  }
-  
-  #photographer
-  {
-    background: none;
-    height: 600px;
-  }
-  
-  #photographer .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #photographer .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/photographer_mobile.jpg")) no-repeat center top;
-    height: 300px;
-    background-size: 480px 300px;
-    background-position: center top;
-  }
-  
-  #phoneAndSocial_outer
-  {
-    background: none;
-    height: 620px;
-  }
-  
-  #phoneAndSocial
-  {
-    background: none;
-    height: 620px;
-  }
-  
-  #phoneAndSocial .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #phoneAndSocial .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/phoneAndSocial_mobile.jpg")) no-repeat center top;
-    height: 300px;
-    background-size: 480px 300px;
-    background-position: center top;
-  }
-  
-  #crystal_clear_outer
-  {
-    background: none;
-    height: 620px;
-  }
-  
-  #crystal_clear
-  {
-    background: none;
-    height: 620px;
-  }
-  
-  #crystal_clear .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #crystal_clear .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/crystal_clear_mobile.jpg")) no-repeat center top;
-    height: 300px;
-    background-size: 480px 300px;
-    background-position: center top;
-  }
-  
-  #portable_outer
-  {
-    background: none;
-    height: 500px;
-  }
-  
-  #portable
-  {
-    background: none;
-    height: 500px;
-  }
-  
-  #portable .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #portable .key_point_image
-  {
-    width: 100%;
-    padding-top: 20px;
-    height: auto;
-    height: 200px;
-  }
-  
-  #cloud_outer
-  {
-    background: none;
-    height: 550px;
-  }
-  
-  #cloud
-  {
-    background: none;
-    height: 550px;
-    background-size: 100%;
-  }
-  
-  #cloud .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #cloud .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/cloud_mobile.jpg")) no-repeat center top;
-    height: 300px;
-    background-size: 480px 300px;
-    background-position: center top;
-  }
-  
-  #secure_outer
-  {
-    background: none;
-    height: 500px;
-  }
-  
-  #secure
-  {
-    background: none;
-    height: 500px;
-  }
-  
-  #secure .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #secure .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/secure_mobile.jpg")) no-repeat center top;
-    height: 300px;
-    background-size: 480px 300px;
-    background-position: center top;
-  }
-
+    
 }
 
 /* iphone landscape */
 @media screen and (min-width : 480px) and (max-width : 768px)
 {
-  .big_wrapper
-  {
-    border-bottom: 1px solid #acacac;
-  }
-  .key_point
-  {
-    display: block;
-    width: 100%;
-  }
-  .key_point_image
-  {
-    display: block;
-    height: 480px;
-  }
-  
-  .key_point h1 {
-    color: rgb(0,175,216);
-    width: 100%;
-    font-size: 2.6em;
-    font-size: 26px;
-    line-height: 1.25;
-    text-align: center;
-  }
-  
-  .key_point p {
-    line-height: 1.25;
-    letter-spacing: 0.1px;
-    font-size: 1.9em;
-    font-size: 19px;
-    padding-top: 5px;
-    text-align: center;
-  }
-  
-  #photographer_outer
-  {
-    background: none;
-    height: 750px;
-  }
-  
-  #photographer
-  {
-    background: none;
-    height: 750px;
-  }
-  
-  #photographer .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #photographer .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/photographer_mobile.jpg")) no-repeat center top;
-    height: 480px;
-    background-size: 768px 480px;
-    background-position: center top;
-  }
-  
-  #phoneAndSocial_outer
-  {
-    background: none;
-    height: 750px;
-  }
-  
-  #phoneAndSocial
-  {
-    background: none;
-    height: 750px;
-  }
-  
-  #phoneAndSocial .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #phoneAndSocial .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/phoneAndSocial_mobile.jpg")) no-repeat center top;
-    height: 480px;
-    background-size: 768px 480px;
-    background-position: center top;
-  }
-  
-  #crystal_clear_outer
-  {
-    background: none;
-    height: 750px;
-  }
-  
-  #crystal_clear
-  {
-    background: none;
-    height: 750px;
-  }
-  
-  #crystal_clear .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #crystal_clear .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/crystal_clear_mobile.jpg")) no-repeat center top;
-    height: 480px;
-    background-size: 768px 480px;
-    background-position: center top;
-  }
-  
-  #portable_outer
-  {
-    background: none;
-    height: 500px;
-  }
-  
-  #portable
-  {
-    background: none;
-    height: 500px;
-  }
-  
-  #portable .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #portable .key_point_image
-  {
-    width: 100%;
-    padding-top: 20px;
-    height: auto;
-    height: 250px;
-  }
-  
-  #cloud_outer
-  {
-    background: none;
-    height: 680px;
-  }
-  
-  #cloud
-  {
-    background: none;
-    height: 680px;
-    background-size: 100%;
-  }
-  
-  #cloud .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #cloud .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/cloud_mobile.jpg")) no-repeat center top;
-    height: 480px;
-    background-size: 768px 480px;
-    background-position: center top;
-  }
-  
-  #secure_outer
-  {
-    background: none;
-    height: 680px;
-  }
-  
-  #secure
-  {
-    background: none;
-    height: 680px;
-  }
-  
-  #secure .key_point
-  {
-    margin-top: 0px;
-    margin-left: 0%;
-  }
-  
-  #secure .key_point_image
-  {
-    padding-top: 20px;
-    background: url(image_path("keypointImages/secure_mobile.jpg")) no-repeat center top;
-    height: 480px;
-    background-size: 768px 480px;
-    background-position: center top;
-  }
   
 }
-
 /* ipad landscape*/
 @media only screen and (min-width : 769px) and (max-width : 960px)
 {
-  .key_point h1 {
-    color: rgb(0,175,216);
-    font-size: 2.8em;
-    font-size: 28px;
-    line-height: 1.25;
-  }
-  
-  .key_point p {
-    line-height: 1.25;
-    letter-spacing: 0.1px;
-    font-size: 2.0em;
-    font-size: 20x;
-  }
-  
-  #photographer_outer
-  {
-    background: url(image_path("keypointImages/photographer_tablet.jpg")) no-repeat center center;
-    background-size: 960px 500px;
-    background-position: center top;
-    height: 500px;
-  }
-  
-  #photographer .key_point
-  {
-    margin-left: 0%;
-  }
-  
-  #phoneAndSocial_outer
-  {
-    background: url(image_path("keypointImages/phoneAndSocial_tablet.jpg")) no-repeat center center;
-    background-size: 960px 500px;
-    background-position: center top;
-    height: 500px;
-  }
-  
-  #crystal_clear_outer
-  {
-    background: url(image_path("keypointImages/crystal_clear_tablet.jpg")) no-repeat center center;
-    background-size: 960px 500px;
-    background-position: center top;
-    height: 500px;
-  }
-  
-  #cloud_outer
-  {
-    background: url(image_path("keypointImages/cloud_tablet.jpg")) no-repeat center center;
-    background-size: 960px 500px;
-    background-position: center top;
-    height: 500px;
-  }
-  
-  #cloud .key_point
-  {
-    width: 40%;
-    margin-right:0%;
-    margin-left: 59%;
-  }
-  
-  #portable .key_point_image
-  {
-    margin-right: 20%;
-    width: 30%;
-  }
-  
-  #secure_outer
-  {
-    background: url(image_path("keypointImages/secure_tablet.jpg")) no-repeat center center;
-    background-size: 960px 500px;
-    background-position: center top;
-    height: 500px;
-  }
 }
 
 @media only screen and (min-width : 960px) and (max-width : 1024 px)
 {
-  .key_point h1 {
-    color: rgb(0,175,216);
-    font-size: 2.2em;
-    font-size: 22px;
-    line-height: 1.25;
-  }
   
-  .key_point p {
-    line-height: 1.25;
-    letter-spacing: 0.1px;
-    font-size: 1.8em;
-    font-size: 18px;
-  }
-  
-  #photographer_outer
-  {
-    background: url(image_path("keypointImages/photographer_tablet.jpg")) no-repeat center center;
-    background-size: 1024px 533px;
-    background-position: center top;
-    height: 533px;
-  }
-  
-  #photographer .key_point
-  {
-    margin-left: 0%;
-  }
-  
-  #phoneAndSocial_outer
-  {
-    background: url(image_path("keypointImages/phoneAndSocial_tablet.jpg")) no-repeat center center;
-    background-size: 1024px 533px;
-    background-position: center top;
-    height: 533px;
-  }
-  
-  #crystal_clear_outer
-  {
-    background: url(image_path("keypointImages/crystal_clear_tablet.jpg")) no-repeat center center;
-    background-size: 1024px 533px;
-    background-position: center top;
-    height: 533px;
-  }
-  
-  #cloud_outer
-  {
-    background: url(image_path("keypointImages/cloud_tablet.jpg")) no-repeat center center;
-    background-size: 1024px 533px;
-    background-position: center top;
-    height: 533px;
-  }
-  
-  #cloud .key_point
-  {
-    width: 40%;
-    margin-right:0%;
-    margin-left: 59%;
-  }
-  
-  #portable .key_point_image
-  {
-    margin-right: 20%;
-    width: 30%;
-  }
-  
-  #secure_outer
-  {
-    background: url(image_path("keypointImages/secure_tablet.jpg")) no-repeat center center;
-    background-size: 1024px 533px;
-    background-position: center top;
-    height: 533px;
-  }
 }

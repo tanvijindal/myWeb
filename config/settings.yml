@@ -1,21 +1,2 @@
-# This'll be both the page title (<title></title>) and the name in the header
-product_name: "PikMoments"
-
-# This will be used in sentences like Hooray You've just reserved product_description
-product_description: "Pikmomets: Your personal photographer"
-
-# The message on the preorder page, Lockitron's is ""
-value_proposition: "Capture amazing moments automatically"
-
-# To find your access key and secret key, head over to here --> http://bit.ly/R4I4ky (Follow that guide in the Seller Central page)
-amazon_access_key: "YOUR_AMAZON_ACCESS_KEY"
-amazon_secret_key: "YOUR_AMAZON_SECRET_KEY"
-
-call_to_action: "Subscribe"
-
-
-# Social Stuff
-facebook_app_id: "1234567890"
-
 # Google Analytics
 google_id: "UA-46052338-1"

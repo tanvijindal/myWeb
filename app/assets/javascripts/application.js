@@ -15,9 +15,4 @@
 //= require jquery_ujs
 //= require jquery.ui.all
 //= require jquery.textchange
-//= require preorder
-//= require subscribe
-//= require battery_animation
-//= require slideshow
-//= require vertical_navigation
 //= require_tree .

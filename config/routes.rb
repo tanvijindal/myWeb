@@ -3,7 +3,7 @@ Selfstarter::Application.routes.draw do
   match '/homepage'    => 'homepage#index', :via => [:get,:post]
   root :to => 'homepage#index'
   match '/preorder'               => 'preorder#index', :via => [:get,:post]
-  match '/faq'                    => 'faq#index', :via => [:get]
+  match '/project1'                    => 'project1#index', :via => [:get]
   match '/privacy'                    => 'privacy#index', :via => [:get]
   match '/about'               => 'about_us#index', :via => [:get]
   match '/homepage/subscribe'    => 'homepage#subscribe', :via => [:get,:post]

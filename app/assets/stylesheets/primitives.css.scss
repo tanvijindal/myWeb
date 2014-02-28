@@ -1,12 +1,14 @@
 $body_background: #ffffff;
-/* 
-$primary_font: "Gill Sans";
-$primary_font: "Helvetica Neue";
- */
 
+$primary_font: "Open Sans";
+$secondary_font: sans-serif;
+$tertiary_font: "";
+
+/*
 $primary_font: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
 $secondary_font: "Helvetica";
 $tertiary_font: "Arial";
+ */
 
 /* For modern browsers */
 
@@ -24,8 +26,7 @@ $tertiary_font: "Arial";
 
 ::selection
 {
-  background: #00afd8;
-  color: #ffffff;
+  background: rgba(255,245,0,0.3);
 }
 
 ::-moz-selection
@@ -35,8 +36,10 @@ $tertiary_font: "Arial";
 }
 
 .wrapper {
-  width: 74%;
-  margin: 0% 13%;
+  max-width: 970px;
+  margin: auto;
+  height: auto;
+  display: block;
 }
 
 .pulldown
@@ -118,7 +121,6 @@ h1 {
   -webkit-font-smoothing: antialiased;
   font-size: 3em;
   font-size: 30px;
-  float: left;
   margin-top: 0.5em;
   margin-top: 5px;
   margin-bottom: 0.5em;
