@@ -5,14 +5,17 @@
   color: #000000;
   padding-bottom: 40px;
   padding-top: 10px;
+  -moz-box-shadow:    1px 1px 5px 1px #acacac;
+  -webkit-box-shadow: 1px 1px 5px 1px #acacac;
+  box-shadow:         1px 1px 5px 1px #acacac;
 }
 
 .footer-social-container
 {
-  width:50%;
-  text-align:center;
+  width:45%;
   float: left;
   display: block;
+  padding-left: 5%;
 }
 
 .footer-copyright-container
@@ -28,6 +31,8 @@
   font-size: 1.6em;
   font-size: 16px;
   padding-top: 10px;
+  text-align: right;
+  padding-right: 30px;
 }
 
 .footer a
@@ -56,6 +61,8 @@
     width: 100%;
     float:none;
     margin-top: 5px;
+    text-align: center;
+    padding-left: 0px;
   }
   
   .footer a:hover
@@ -77,5 +84,6 @@
   {
     font-size: 1.6em;
     font-size: 16px;
+    text-align: center;
   }
 }

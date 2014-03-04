@@ -1,6 +1,6 @@
 .social
 {
-  text-align: center;
+  text-align: left;
 }
 
 .social a:hover
@@ -54,7 +54,12 @@
 }
 
 @media only screen
-and (min-device-width : 320px)
-and (max-device-width : 480px)
+and (min-width : 320px)
+and (max-width : 480px)
 {
+  .social
+  {
+    text-align: center;
+  }
+
 }
