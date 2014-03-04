@@ -1,3 +1,8 @@
+section
+{
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
 #projects
 {
     width: 100%;
@@ -7,7 +12,7 @@
 
 .section-heading
 {
-    margin-top: 80px;
+    margin-top: 60px;
     margin-bottom: 40px;
     display: block;
     width: 100%;
@@ -81,12 +86,14 @@
   font-size: 26px;
   padding: 60px 10px 10px 10px;
   border-bottom: 1px solid white;
+  width: 100%;
 }
 
 .project-info p
 {
   font-size: 20px;
   padding: 20px 10px 10px 10px;
+  width: 100%;
 }
 
 .project-item:hover .project-info
@@ -96,13 +103,96 @@
 
 /* iphone */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
+  
+  .rows
+  {
+    width: 100%;
+    height: 810px;
+    display: block;
+  }
+  
+  .col
+  {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+    float: left;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .col:first-child
+  {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .section-heading
+  {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #EC8D2D;
+    font-weight: bolder;
+  }
+  
+  .section-heading h2
+  {
+    font-size: 20px;
+  }
     
 }
 
 /* iphone landscape */
 @media screen and (min-width : 480px) and (max-width : 768px)
 {
+  .rows
+  {
+    width: 100%;
+    height: 810px;
+    display: block;
+  }
   
+  .col
+  {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    float: left;
+    position: relative;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  .col:first-child
+  {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  
+  .section-heading
+  {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #EC8D2D;
+    font-weight: bolder;
+  }
+  
+  .section-heading h2
+  {
+    font-size: 20px;
+  }
+
 }
 /* ipad landscape*/
 @media only screen and (min-width : 769px) and (max-width : 960px)
