@@ -65,11 +65,33 @@
 
 .project-info
 {
-    background: rgba(220,110,0,0.8);
-    height: 100%;
+    background: rgba(220,110,0,0.6);
     position: absolute;
     width: 100%;
+    height: 100%;
     vertical-align: baseline;
+    z-index: 100;
+    display: none;
+    color: rgba(255,255,255,1);
+}
+
+.project-info h1
+{
+  font-weight: bolder;
+  font-size: 26px;
+  padding: 60px 10px 10px 10px;
+  border-bottom: 1px solid white;
+}
+
+.project-info p
+{
+  font-size: 20px;
+  padding: 20px 10px 10px 10px;
+}
+
+.project-item:hover .project-info
+{
+  display: block;
 }
 
 /* iphone */

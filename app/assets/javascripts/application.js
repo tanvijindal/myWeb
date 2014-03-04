@@ -14,5 +14,6 @@
 //= require jquery
 //= require jquery_ujs
 //= require jquery.ui.all
+//= require internal_navigation
 //= require jquery.textchange
 //= require_tree .
