@@ -6,8 +6,8 @@
   top: 0;
   background: rgba(255,255,255,0.7);
   position: fixed;
-  z-index: 999;
   color: #000000;
+	z-index: 999;
   -moz-box-shadow:    1px 1px 5px 1px #acacac;
   -webkit-box-shadow: 1px 1px 5px 1px #acacac;
   box-shadow:         1px 1px 5px 1px #acacac;
@@ -65,7 +65,7 @@
 
 .header a:hover
 {
-  color: #d5f26d;
+  color: #EC8D2D;
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px)
