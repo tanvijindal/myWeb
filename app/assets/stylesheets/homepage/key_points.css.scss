@@ -17,7 +17,7 @@ section
     display: block;
     width: 100%;
     text-align: center;
-    color: #EC8D2D;
+    color: #1f2947; /*#EC8D2D, d5f26d*/
     font-weight: bolder;
 }
 
@@ -58,14 +58,48 @@ section
     max-width: 300px;
     height: auto;
     width: 100%;
+		border: 1px solid white;
+		border-radius: 10px;
 }
 
-#one, #two, #three
+#pikvids
 {
-    background: url(image_path("random.jpg")) no-repeat center center;
-    background-size: 300px 250px;
-    background-position: center top;
-    height: 250px;
+	background: url(image_path("pikvids.png")) no-repeat center center;
+	background-size: 300px 250px;
+	background-position: center top;
+	height: 250px;
+}
+
+#snapsmart
+{
+	background: url(image_path("snapsmart.jpg")) no-repeat center center;
+	background-size: 300px 250px;
+	background-position: center top;
+	height: 250px;
+}
+
+#pikmoments
+{
+	background: url(image_path("pikmoments.jpg")) no-repeat center center;
+	background-size: 300px 250px;
+	background-position: center top;
+	height: 250px;
+}
+
+#trafficmine
+{
+	background: url(image_path("trafficmine.png")) no-repeat center center;
+	background-size: 300px 250px;
+	background-position: center top;
+	height: 250px;
+}
+
+#authormap
+{
+	background: url(image_path("authormap.png")) no-repeat center center;
+	background-size: 300px 250px;
+	background-position: center top;
+	height: 250px;
 }
 
 .project-info
@@ -78,6 +112,8 @@ section
     z-index: 100;
     display: none;
     color: rgba(255,255,255,1);
+		border: 1px solid white;
+		border-radius: 10px;
 }
 
 .project-info h1
@@ -104,7 +140,10 @@ section
 #about
 {
   height: auto;
-  overflow: auto;
+	overflow: auto;
+	background: url(image_path("about_background.jpg")) no-repeat center center;
+	background-size: 1270px 600px;
+	margin-top: 50px;
 }
 
 #about-photo
@@ -127,7 +166,7 @@ section
 #about-writeup p
 {
  font-size: 18px;
- color: #acacac;
+ color: white;
  line-height: 1.5;
 }
 

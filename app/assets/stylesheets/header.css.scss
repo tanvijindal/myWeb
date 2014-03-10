@@ -65,7 +65,7 @@
 
 .header a:hover
 {
-  color: #EC8D2D;
+  color: #d5f26d;
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px)
@@ -148,4 +148,12 @@
   {
     font-size: 14px;
   }
+}
+
+@media only screen and (min-width : 769px) and (max-width : 960px)
+{
+	#page_nav li h4
+		{
+			font-size: 14px;
+		}
 }
