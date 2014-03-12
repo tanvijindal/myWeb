@@ -17,7 +17,7 @@ section
     display: block;
     width: 100%;
     text-align: center;
-    color: #EC8D2D;
+    color: #a64d79;
     font-weight: bolder;
 }
 
@@ -112,7 +112,7 @@ section
 
 .project-info
 {
-    background: rgba(220,110,0,0.7);
+    background: rgba(166,77,121,0.7);
     position: absolute;
     width: 100%;
     height: 100%;
@@ -152,6 +152,8 @@ section
 	background: url(image_path("about_background.jpg")) no-repeat center center;
 	background-size: 1270px 600px;
 	margin-top: 50px;
+	padding-top: 80px;
+	padding-bottom: 60px;
 }
 
 #about-photo
