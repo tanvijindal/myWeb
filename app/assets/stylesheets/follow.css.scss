@@ -25,6 +25,13 @@
   width: 30px;
 }
 
+.social #mail_logo
+{
+  background: url(image_path("social/mail_logo.jpg")) no-repeat center center;
+  background-size: 30px 30px;
+	background-position: center top;
+}
+
 .social #facebook_logo
 {
   background: url(image_path("social/facebook_logo.jpg")) no-repeat center center;
